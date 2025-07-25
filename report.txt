@@ -1,0 +1,13 @@
+Plotted to '/home/atop/Documents/development/other/DigitalWaters/schematics/DigitalWaters_WD_prototype/digital_waters-F_Cu.gbr'.
+Plotted to '/home/atop/Documents/development/other/DigitalWaters/schematics/DigitalWaters_WD_prototype/digital_waters-In1_Cu.gbr'.
+Plotted to '/home/atop/Documents/development/other/DigitalWaters/schematics/DigitalWaters_WD_prototype/digital_waters-In2_Cu.gbr'.
+Plotted to '/home/atop/Documents/development/other/DigitalWaters/schematics/DigitalWaters_WD_prototype/digital_waters-B_Cu.gbr'.
+Plotted to '/home/atop/Documents/development/other/DigitalWaters/schematics/DigitalWaters_WD_prototype/digital_waters-F_Paste.gbr'.
+Plotted to '/home/atop/Documents/development/other/DigitalWaters/schematics/DigitalWaters_WD_prototype/digital_waters-B_Paste.gbr'.
+Plotted to '/home/atop/Documents/development/other/DigitalWaters/schematics/DigitalWaters_WD_prototype/digital_waters-F_Silkscreen.gbr'.
+Plotted to '/home/atop/Documents/development/other/DigitalWaters/schematics/DigitalWaters_WD_prototype/digital_waters-B_Silkscreen.gbr'.
+Plotted to '/home/atop/Documents/development/other/DigitalWaters/schematics/DigitalWaters_WD_prototype/digital_waters-F_Mask.gbr'.
+Plotted to '/home/atop/Documents/development/other/DigitalWaters/schematics/DigitalWaters_WD_prototype/digital_waters-B_Mask.gbr'.
+Plotted to '/home/atop/Documents/development/other/DigitalWaters/schematics/DigitalWaters_WD_prototype/digital_waters-Edge_Cuts.gbr'.
+Created Gerber job file '/home/atop/Documents/development/other/DigitalWaters/schematics/DigitalWaters_WD_prototype/digital_waters-job.gbrjob'.
+Info: Done.
