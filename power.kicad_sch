@@ -5,7 +5,7 @@
 	(uuid "618834f7-e6b8-465b-826c-73e6585d4cb4")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Amplifier_Operational:OPA197xDGK"
+		(symbol "Amplifier_Operational:OPA197xD"
 			(pin_names
 				(offset 0.127)
 			)
@@ -13,7 +13,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 0 5.08 0)
+				(at 0 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -21,8 +21,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "OPA197xDGK"
-				(at 0 -5.08 0)
+			(property "Value" "OPA197xD"
+				(at 0 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -30,17 +30,18 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
-				(at 0 0 0)
+			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+				(at -2.54 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
 			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa197.pdf"
-				(at 0 5.08 0)
+				(at 3.81 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -48,7 +49,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Single 36V, Precision, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, VSSOP-8"
+			(property "Description" "Single 36V, Precision, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, SOIC-8"
 				(at 0 0 0)
 				(effects
 					(font
@@ -66,7 +67,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "VSSOP*3x3mm*P0.65mm*"
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -75,7 +76,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "OPA197xDGK_0_1"
+			(symbol "OPA197xD_0_1"
 				(polyline
 					(pts
 						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
@@ -88,8 +89,10 @@
 						(type background)
 					)
 				)
+			)
+			(symbol "OPA197xD_1_1"
 				(pin no_connect line
-					(at 2.54 0 270)
+					(at -2.54 2.54 270)
 					(length 2.54) hide
 					(name "NC"
 						(effects
@@ -99,6 +102,42 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -142,6 +181,24 @@
 						)
 					)
 				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin power_in line
 					(at -2.54 7.62 270)
 					(length 3.81)
@@ -171,62 +228,6 @@
 						)
 					)
 					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "OPA197xDGK_1_1"
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2815,12 +2816,6 @@
 		(uuid "c0452f08-f3c1-4fc5-bbea-8828c3f4edb4")
 	)
 	(junction
-		(at 238.76 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c167e357-eab0-4f9b-81aa-d548f32116f7")
-	)
-	(junction
 		(at 120.65 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2909,6 +2904,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e88dc601-ba4a-40e7-a991-ed372c03b103")
+	)
+	(junction
+		(at 238.76 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f269f38e-f2bc-4fe0-9f77-5958b9e79cd0")
 	)
 	(junction
 		(at 72.39 26.67)
@@ -4370,16 +4371,6 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 140.97) (xy 240.03 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90408ca4-4597-4475-8359-a360bafc6e24")
-	)
-	(wire
-		(pts
 			(xy 100.33 36.83) (xy 100.33 31.75)
 		)
 		(stroke
@@ -5624,17 +5615,6 @@
 			(justify left)
 		)
 		(uuid "7a55ff82-9497-4e2c-919b-d545c1b3f514")
-	)
-	(hierarchical_label "+4.096_REF_BUF_A"
-		(shape output)
-		(at 240.03 146.05 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8ee26213-332c-45a3-b971-7b4d806f6595")
 	)
 	(hierarchical_label "DIGITAL_GND"
 		(shape output)
@@ -8439,91 +8419,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:OPA197xDGK")
-		(at 231.14 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "93bfc123-1b4e-427b-916a-1d20557d760a")
-		(property "Reference" "U11"
-			(at 232.156 71.628 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OPA197xDGK"
-			(at 236.22 73.914 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
-			(at 231.14 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa197.pdf"
-			(at 231.14 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single 36V, Precision, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, VSSOP-8"
-			(at 231.14 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "682bb45a-6e2f-4925-bda6-710caa2cc230")
-		)
-		(pin "2"
-			(uuid "a7ce5852-f5b6-4d78-9a17-f2ee6738edb9")
-		)
-		(pin "3"
-			(uuid "d2512760-dd60-44c3-bbc0-c1b1f9c9e1ac")
-		)
-		(pin "5"
-			(uuid "3766db53-b774-4b98-850b-f0f7fbce5e13")
-		)
-		(pin "8"
-			(uuid "10f2d8ac-e540-4e7e-af0d-b31c1ea068ec")
-		)
-		(pin "1"
-			(uuid "7b56be2d-2ba8-4631-b209-807c147132ec")
-		)
-		(pin "6"
-			(uuid "da338927-f10f-47fe-a63d-c81e7cdbf86e")
-		)
-		(pin "4"
-			(uuid "584b59c2-2716-4fbc-8550-a2d21e7108b2")
-		)
-		(instances
-			(project ""
-				(path "/37fdfe07-1a70-41c8-8af2-e03e19737580/1fb5cba5-fe5a-4aba-b82b-13cd9370505b"
-					(reference "U11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 129.54 125.73 0)
 		(unit 1)
@@ -8861,72 +8756,6 @@
 			(project "digital_waters"
 				(path "/37fdfe07-1a70-41c8-8af2-e03e19737580/1fb5cba5-fe5a-4aba-b82b-13cd9370505b"
 					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 240.03 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ad7e40db-82b9-401f-8424-b7b36d8ad2b1")
-		(property "Reference" "#FLG8"
-			(at 240.03 139.065 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 240.03 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 240.03 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 240.03 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 240.03 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "33457779-c7b9-468d-8aae-ae280dcc51cd")
-		)
-		(instances
-			(project "digital_waters"
-				(path "/37fdfe07-1a70-41c8-8af2-e03e19737580/1fb5cba5-fe5a-4aba-b82b-13cd9370505b"
-					(reference "#FLG8")
 					(unit 1)
 				)
 			)
@@ -9887,6 +9716,92 @@
 			(project "digital_waters"
 				(path "/37fdfe07-1a70-41c8-8af2-e03e19737580/1fb5cba5-fe5a-4aba-b82b-13cd9370505b"
 					(reference "#FLG5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:OPA197xD")
+		(at 231.14 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e9cffcdb-af67-4613-8d9a-e5ebadbfe288")
+		(property "Reference" "U3"
+			(at 232.918 74.676 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA197xD"
+			(at 236.22 77.216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 228.6 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa197.pdf"
+			(at 234.95 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single 36V, Precision, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, SOIC-8"
+			(at 231.14 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "bedf0b80-290a-49fa-9956-716766e001c7")
+		)
+		(pin "4"
+			(uuid "f93b5489-2731-47f9-afed-7f89a666c743")
+		)
+		(pin "1"
+			(uuid "1d166900-ee36-46c3-9e55-0240a5ad4bd9")
+		)
+		(pin "2"
+			(uuid "32cbff5e-cf41-40e5-a4a2-1cf95d770b61")
+		)
+		(pin "7"
+			(uuid "2252580d-3e2e-4510-a5a9-c2d8c329d4e0")
+		)
+		(pin "6"
+			(uuid "3a16c4cb-9703-4aa4-9738-e09cbefaf3ec")
+		)
+		(pin "8"
+			(uuid "51a18fe1-5061-40a3-8b57-5c436e63683a")
+		)
+		(pin "3"
+			(uuid "0a36fd37-9a93-4845-a0af-286db6b75842")
+		)
+		(instances
+			(project ""
+				(path "/37fdfe07-1a70-41c8-8af2-e03e19737580/1fb5cba5-fe5a-4aba-b82b-13cd9370505b"
+					(reference "U3")
 					(unit 1)
 				)
 			)

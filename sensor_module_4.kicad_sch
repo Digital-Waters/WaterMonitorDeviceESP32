@@ -854,7 +854,7 @@
 				)
 			)
 		)
-		(symbol "Op-Amp-Extended:TLV2387DGKR"
+		(symbol "Op-Amp-Extended:TLV2387DR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -866,7 +866,7 @@
 					)
 				)
 			)
-			(property "Value" "TLV2387DKGR"
+			(property "Value" "TLV2387DR"
 				(at 0 0 0)
 				(effects
 					(font
@@ -874,7 +874,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
+			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -918,7 +918,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "TLV2387DGKR_1_0"
+			(symbol "TLV2387DR_1_0"
 				(pin output line
 					(at 10.16 0 180)
 					(length 2.54)
@@ -974,7 +974,7 @@
 					)
 				)
 			)
-			(symbol "TLV2387DGKR_1_1"
+			(symbol "TLV2387DR_1_1"
 				(polyline
 					(pts
 						(xy -2.54 5.08) (xy -2.54 -5.08) (xy 7.62 0) (xy -2.54 5.08)
@@ -988,7 +988,7 @@
 					)
 				)
 			)
-			(symbol "TLV2387DGKR_2_0"
+			(symbol "TLV2387DR_2_0"
 				(pin input line
 					(at -5.08 2.54 0)
 					(length 2.54)
@@ -1044,7 +1044,7 @@
 					)
 				)
 			)
-			(symbol "TLV2387DGKR_2_1"
+			(symbol "TLV2387DR_2_1"
 				(polyline
 					(pts
 						(xy -2.54 5.08) (xy -2.54 -5.08) (xy 7.62 0) (xy -2.54 5.08)
@@ -1058,7 +1058,7 @@
 					)
 				)
 			)
-			(symbol "TLV2387DGKR_3_0"
+			(symbol "TLV2387DR_3_0"
 				(pin power_in line
 					(at 0 -6.35 90)
 					(length 2.54)
@@ -1732,6 +1732,12 @@
 		(uuid "7ea65cb2-0294-418e-ae06-32aa2008e53a")
 	)
 	(junction
+		(at 138.43 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7ef55220-be4f-4e1a-a7a8-a1b8d9af455b")
+	)
+	(junction
 		(at 72.39 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1784,6 +1790,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cbaf2ab5-b62f-410e-a923-89b822b1a327")
+	)
+	(junction
+		(at 138.43 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cfaadab3-e647-4120-b9bd-cf690f7e3e85")
 	)
 	(junction
 		(at 224.79 153.67)
@@ -1844,6 +1856,16 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ff654724-391e-4d03-9249-dc18d4dcf159")
+	)
+	(wire
+		(pts
+			(xy 138.43 102.87) (xy 137.16 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0274e025-3049-49c3-a012-0301f075b32f")
 	)
 	(wire
 		(pts
@@ -1954,6 +1976,16 @@
 			(type default)
 		)
 		(uuid "162352e7-226f-4b4a-afa1-136ad5d042cd")
+	)
+	(wire
+		(pts
+			(xy 153.67 100.33) (xy 158.75 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "180a6ba7-677e-44f7-a57b-14c53ed42bf4")
 	)
 	(wire
 		(pts
@@ -2357,6 +2389,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 97.79) (xy 139.7 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58512ff5-a991-4a54-81d3-ab714003d79a")
+	)
+	(wire
+		(pts
 			(xy 140.97 153.67) (xy 140.97 154.94)
 		)
 		(stroke
@@ -2487,7 +2529,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 102.87) (xy 137.16 102.87)
+			(xy 139.7 102.87) (xy 138.43 102.87)
 		)
 		(stroke
 			(width 0)
@@ -3217,7 +3259,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 97.79) (xy 139.7 97.79)
+			(xy 135.89 97.79) (xy 138.43 97.79)
 		)
 		(stroke
 			(width 0)
@@ -3244,16 +3286,6 @@
 			(type default)
 		)
 		(uuid "c82559cc-1ee1-4306-9770-7b6a06542c3a")
-	)
-	(wire
-		(pts
-			(xy 156.21 35.56) (xy 157.48 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8f774e7-ade6-45e6-aa1b-d5907fe25ae9")
 	)
 	(wire
 		(pts
@@ -3467,16 +3499,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 100.33) (xy 154.94 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e49d8b5c-5bfc-40a8-a009-4f327f32f271")
-	)
-	(wire
-		(pts
 			(xy 39.37 69.85) (xy 46.99 69.85)
 		)
 		(stroke
@@ -3574,6 +3596,16 @@
 			(type default)
 		)
 		(uuid "f2d6d892-2c7e-4c30-af4e-3acfde540ed4")
+	)
+	(wire
+		(pts
+			(xy 156.21 35.56) (xy 157.48 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f31d7a2a-742d-4ef9-a660-da00b64f77b3")
 	)
 	(wire
 		(pts
@@ -5319,91 +5351,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Op-Amp-Extended:TLV2387DGKR")
-		(at 144.78 100.33 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "477a34ac-82f5-42b9-9258-bd0ccf68265d")
-		(property "Reference" "U4"
-			(at 149.352 96.012 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TLV2387DGKR"
-			(at 147.32 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
-			(at 144.78 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv2387.pdf?ts=1748539346733&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTLV2387"
-			(at 144.78 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 144.78 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e5563471-2387-46b6-8e76-02f724aec31f")
-		)
-		(pin "1"
-			(uuid "101a6a1b-e607-412b-9d5b-8df38a15ba89")
-		)
-		(pin "3"
-			(uuid "7a1ee041-297c-48c0-8d6b-b01190b4fd98")
-		)
-		(pin "8"
-			(uuid "975df7fb-907d-4316-b389-50824ee702e3")
-		)
-		(pin "4"
-			(uuid "05fe7825-50e4-4567-b083-7919514d9c99")
-		)
-		(pin "7"
-			(uuid "a36d755f-a126-4bc4-84c0-2d78eda9b274")
-		)
-		(pin "6"
-			(uuid "6b76a51a-3913-4849-89dd-9365202993a7")
-		)
-		(pin "5"
-			(uuid "30ce5cd1-8866-4745-8053-b74198aaf23b")
-		)
-		(instances
-			(project "digital_waters"
-				(path "/37fdfe07-1a70-41c8-8af2-e03e19737580/569ba513-db4e-4a75-8161-f5cfa6b9cf84"
-					(reference "U4")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 36.83 162.56 90)
 		(unit 1)
@@ -5892,6 +5839,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Op-Amp-Extended:TLV2387DR")
+		(at 143.51 100.33 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f5ed5aa-eeef-4d4f-b8c1-3c66d0da72fb")
+		(property "Reference" "U9"
+			(at 146.05 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV2387DR"
+			(at 146.05 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 143.51 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv2387.pdf?ts=1748539346733&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTLV2387"
+			(at 143.51 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 143.51 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "d756086a-8a46-49f2-adfb-b13c7516eb4b")
+		)
+		(pin "5"
+			(uuid "95425697-d1f1-4648-b2f3-24bd1faf38c9")
+		)
+		(pin "1"
+			(uuid "c8488d8b-a5e4-4256-ad53-36fcdd50aaee")
+		)
+		(pin "3"
+			(uuid "16424a65-2d17-4afa-9711-d086e3c2098b")
+		)
+		(pin "7"
+			(uuid "741461fe-1af8-4ce5-be0f-50280937eed9")
+		)
+		(pin "6"
+			(uuid "ba096806-61ee-493e-9e9b-4208eef71495")
+		)
+		(pin "2"
+			(uuid "6578bf95-1da3-4a40-bcdd-25ed7156912a")
+		)
+		(pin "4"
+			(uuid "6bc405c9-0618-468f-8be2-bfff235652d4")
+		)
+		(instances
+			(project ""
+				(path "/37fdfe07-1a70-41c8-8af2-e03e19737580/569ba513-db4e-4a75-8161-f5cfa6b9cf84"
+					(reference "U9")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 170.18 107.95 0)
 		(unit 1)
@@ -6311,6 +6344,94 @@
 				(path "/37fdfe07-1a70-41c8-8af2-e03e19737580/569ba513-db4e-4a75-8161-f5cfa6b9cf84"
 					(reference "J18")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Op-Amp-Extended:TLV2387DR")
+		(at 232.41 147.32 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a02c63e0-4b72-465b-9bf5-c9dbccd805cf")
+		(property "Reference" "U9"
+			(at 233.68 146.6849 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TLV2387DR"
+			(at 233.68 149.2249 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 232.41 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv2387.pdf?ts=1748539346733&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTLV2387"
+			(at 232.41 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 232.41 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "d756086a-8a46-49f2-adfb-b13c7516eb4b")
+		)
+		(pin "5"
+			(uuid "95425697-d1f1-4648-b2f3-24bd1faf38c9")
+		)
+		(pin "1"
+			(uuid "c8488d8b-a5e4-4256-ad53-36fcdd50aaee")
+		)
+		(pin "3"
+			(uuid "16424a65-2d17-4afa-9711-d086e3c2098b")
+		)
+		(pin "7"
+			(uuid "741461fe-1af8-4ce5-be0f-50280937eed9")
+		)
+		(pin "6"
+			(uuid "ba096806-61ee-493e-9e9b-4208eef71495")
+		)
+		(pin "2"
+			(uuid "6578bf95-1da3-4a40-bcdd-25ed7156912a")
+		)
+		(pin "4"
+			(uuid "6bc405c9-0618-468f-8be2-bfff235652d4")
+		)
+		(instances
+			(project ""
+				(path "/37fdfe07-1a70-41c8-8af2-e03e19737580/569ba513-db4e-4a75-8161-f5cfa6b9cf84"
+					(reference "U9")
+					(unit 3)
 				)
 			)
 		)
@@ -6929,94 +7050,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Op-Amp-Extended:TLV2387DGKR")
-		(at 232.41 147.32 0)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b8d20b7b-6cdb-44ea-88c2-9cfdccd4b2e5")
-		(property "Reference" "U4"
-			(at 233.68 146.6849 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TLV2387DGKR"
-			(at 233.68 149.2249 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
-			(at 232.41 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv2387.pdf?ts=1748539346733&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTLV2387"
-			(at 232.41 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 232.41 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e5563471-2387-46b6-8e76-02f724aec31e")
-		)
-		(pin "1"
-			(uuid "101a6a1b-e607-412b-9d5b-8df38a15ba88")
-		)
-		(pin "3"
-			(uuid "7a1ee041-297c-48c0-8d6b-b01190b4fd97")
-		)
-		(pin "8"
-			(uuid "eea650c9-e1b4-4191-8075-bead91412ea4")
-		)
-		(pin "4"
-			(uuid "dde79ff0-055a-43d7-b4c5-03e331ecd7c5")
-		)
-		(pin "7"
-			(uuid "137bdc00-8b10-4b52-a326-468948940666")
-		)
-		(pin "6"
-			(uuid "f64e0d3c-49dc-42be-8afd-001d5dd58fad")
-		)
-		(pin "5"
-			(uuid "cace681b-97f4-47af-a9bc-1f2d69ddbc6f")
-		)
-		(instances
-			(project "digital_waters"
-				(path "/37fdfe07-1a70-41c8-8af2-e03e19737580/569ba513-db4e-4a75-8161-f5cfa6b9cf84"
-					(reference "U4")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
 		(at 19.05 166.37 0)
 		(unit 1)
@@ -7079,6 +7112,92 @@
 			(project ""
 				(path "/37fdfe07-1a70-41c8-8af2-e03e19737580/569ba513-db4e-4a75-8161-f5cfa6b9cf84"
 					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Op-Amp-Extended:TLV2387DR")
+		(at 146.05 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9ff8847-bcd8-4740-b0e3-467f70c3d05e")
+		(property "Reference" "U9"
+			(at 148.59 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV2387DR"
+			(at 148.59 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 146.05 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv2387.pdf?ts=1748539346733&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTLV2387"
+			(at 146.05 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 146.05 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "d756086a-8a46-49f2-adfb-b13c7516eb4b")
+		)
+		(pin "5"
+			(uuid "95425697-d1f1-4648-b2f3-24bd1faf38c9")
+		)
+		(pin "1"
+			(uuid "c8488d8b-a5e4-4256-ad53-36fcdd50aaee")
+		)
+		(pin "3"
+			(uuid "16424a65-2d17-4afa-9711-d086e3c2098b")
+		)
+		(pin "7"
+			(uuid "741461fe-1af8-4ce5-be0f-50280937eed9")
+		)
+		(pin "6"
+			(uuid "ba096806-61ee-493e-9e9b-4208eef71495")
+		)
+		(pin "2"
+			(uuid "6578bf95-1da3-4a40-bcdd-25ed7156912a")
+		)
+		(pin "4"
+			(uuid "6bc405c9-0618-468f-8be2-bfff235652d4")
+		)
+		(instances
+			(project ""
+				(path "/37fdfe07-1a70-41c8-8af2-e03e19737580/569ba513-db4e-4a75-8161-f5cfa6b9cf84"
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -7158,92 +7277,6 @@
 			(project "digital_waters"
 				(path "/37fdfe07-1a70-41c8-8af2-e03e19737580/569ba513-db4e-4a75-8161-f5cfa6b9cf84"
 					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Op-Amp-Extended:TLV2387DGKR")
-		(at 146.05 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c0e50b26-c5a8-4899-a9d7-f2406d39f267")
-		(property "Reference" "U4"
-			(at 148.59 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TLV2387DGKR"
-			(at 148.59 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
-			(at 146.05 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv2387.pdf?ts=1748539346733&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTLV2387"
-			(at 146.05 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 146.05 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8019bd61-1afb-48bc-846c-fd7ac06cc63f")
-		)
-		(pin "1"
-			(uuid "302a69dd-6081-41fa-af51-a2e757929977")
-		)
-		(pin "3"
-			(uuid "f65e1d2d-fa67-474c-b52d-0ee832e5188c")
-		)
-		(pin "8"
-			(uuid "975df7fb-907d-4316-b389-50824ee702e4")
-		)
-		(pin "4"
-			(uuid "05fe7825-50e4-4567-b083-7919514d9c9a")
-		)
-		(pin "7"
-			(uuid "137bdc00-8b10-4b52-a326-468948940668")
-		)
-		(pin "6"
-			(uuid "f64e0d3c-49dc-42be-8afd-001d5dd58faf")
-		)
-		(pin "5"
-			(uuid "cace681b-97f4-47af-a9bc-1f2d69ddbc71")
-		)
-		(instances
-			(project "digital_waters"
-				(path "/37fdfe07-1a70-41c8-8af2-e03e19737580/569ba513-db4e-4a75-8161-f5cfa6b9cf84"
-					(reference "U4")
 					(unit 1)
 				)
 			)

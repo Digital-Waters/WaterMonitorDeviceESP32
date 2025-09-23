@@ -1,3 +1,4 @@
+Info: Output directory '/home/atop/Documents/development/other/DigitalWaters/schematics/DigitalWaters_WD_prototype' created.
 Plotted to '/home/atop/Documents/development/other/DigitalWaters/schematics/DigitalWaters_WD_prototype/digital_waters-F_Cu.gbr'.
 Plotted to '/home/atop/Documents/development/other/DigitalWaters/schematics/DigitalWaters_WD_prototype/digital_waters-In1_Cu.gbr'.
 Plotted to '/home/atop/Documents/development/other/DigitalWaters/schematics/DigitalWaters_WD_prototype/digital_waters-In2_Cu.gbr'.
