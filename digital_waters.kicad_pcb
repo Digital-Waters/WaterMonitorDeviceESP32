@@ -312,6 +312,45 @@
 				)
 			)
 		)
+		(property "MPN" "CL21B105KOFNNNG"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1f6c5387-f5a6-4f60-af6a-96f274065391")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b665143d-64c2-4b01-ac46-511abeacbc91")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2c68ba09-7793-474f-b330-e9c8ee292d7e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/569ba513-db4e-4a75-8161-f5cfa6b9cf84/0056b479-e802-4750-a45f-3a500b850a21")
 		(sheetname "Sensor Module Prototype")
@@ -532,6 +571,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f1c365f4-5dff-4b9a-8336-8315b3b45b99")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "CC0805KKX7R7BB824"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f5740c9e-8bb6-47c3-9590-3cb33b43e6ec")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4f17f36b-01fb-472c-a0db-661d6d011358")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8213651c-854b-49a3-918a-0e1732771bf8")
 			(effects
 				(font
 					(size 1 1)
@@ -765,6 +843,45 @@
 				)
 			)
 		)
+		(property "MPN" "CC0805KRX7R7BB104"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "81f1befa-06cb-4383-b672-ce4b285e9e7c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0a38eab4-0af1-4639-ba80-de2d8c11ddd4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0390fc74-2966-4519-abaf-300fda7f7f5b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/1fb5cba5-fe5a-4aba-b82b-13cd9370505b/2dfaeb0c-22a6-4f50-8d55-dad3789c7a22")
 		(sheetname "Power")
@@ -919,7 +1036,7 @@
 		(descr "SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOIC SO")
 		(property "Reference" "U3"
-			(at 2.708969 -3.473096 360)
+			(at 2.708969 -3.473096 0)
 			(layer "F.SilkS")
 			(uuid "d2073452-9b1c-4f74-b3b6-e129ca297e36")
 			(effects
@@ -930,7 +1047,7 @@
 			)
 		)
 		(property "Value" "OPA197xD"
-			(at 0 3.4 360)
+			(at 0 3.4 0)
 			(layer "F.Fab")
 			(uuid "19047fb7-bb54-4465-9ce2-517eef396162")
 			(effects
@@ -941,7 +1058,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a336a24e-fb31-4221-9e6d-6aaa2cd6c076")
@@ -953,7 +1070,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa197.pdf"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9f9caff8-f98e-4389-80b3-5af0830c90c2")
@@ -965,13 +1082,52 @@
 			)
 		)
 		(property "Description" "Single 36V, Precision, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, SOIC-8"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9d8ce961-1f45-4eee-846b-d56847fd08f4")
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "OPA197ID"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2a544234-8c41-4c67-8727-0b320f940156")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "TI"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6854c492-36dc-467b-9344-c69715048225")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "SOIC-8"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b95f4696-603a-44dc-a769-08a600b4e962")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -1124,7 +1280,7 @@
 			(uuid "e4c939ca-5046-4adf-a269-3d6b8ef4c169")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "991356a4-6a48-495c-b357-0771d4f492b5")
 			(effects
@@ -1290,6 +1446,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "PTVS22VZ1USK"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "060d17c5-f321-442d-ace1-04a54c413447")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Nexperia"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "69ed16ae-f12a-432d-9bd4-68f51d96cfbb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "DSN1608-2"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4f83d519-eb49-4d0f-a7d6-852df77c47fb")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -1529,6 +1724,45 @@
 				)
 			)
 		)
+		(property "MPN" "AC0805FR-7W10KL"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3b1ec7fb-5204-489e-93c6-981ccb233b12")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2d85df89-8ce6-44ce-b831-69a231ddd708")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9424c084-1720-4197-bf3b-e64d294a5f38")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/1fb5cba5-fe5a-4aba-b82b-13cd9370505b/291b5e4a-39a9-4cfc-b5c1-231096129780")
 		(sheetname "Power")
@@ -1739,6 +1973,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "PE1206FRF7W0R1L"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8b753875-7837-4cd5-8939-92ffb87e891a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bb26b185-0166-48e0-9ac3-cbe367d77637")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "1206"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "79b48d52-4966-4386-be61-ee562b0960af")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -1954,6 +2227,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "CBC3225T220KR"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9250ccd6-4ed6-4320-813b-a6a9de207f65")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Tayo Yuden"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "87c2c07b-b8cf-49eb-b36e-47bb64ef7796")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "1210"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "47ca2e5f-4a98-4d4a-a328-50b19a978499")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -2186,6 +2498,45 @@
 				)
 			)
 		)
+		(property "MPN" "AC0805FR-7W1KL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "16e36c6e-d2c1-4be2-8365-366e6de85c67")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "921c68b9-c10a-4edb-9992-c1bb1ce678c3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cc687018-92e8-4946-9626-57fc5b8abc5e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/569ba513-db4e-4a75-8161-f5cfa6b9cf84/1f1100ef-9216-4ae8-9205-062a578f6976")
 		(sheetname "Sensor Module Prototype")
@@ -2395,6 +2746,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "AC0805FR-7W100RL"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3ec2d158-0ff6-4f3d-b114-20bbc2875e39")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "941b8d84-8508-4aa5-b742-7b6794a88596")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "87f9502b-7f58-41af-a7a0-824b1b621e6e")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -2612,6 +3002,45 @@
 				)
 			)
 		)
+		(property "MPN" "GRM21BZ71A226ME15L"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5a208daa-c25a-4d88-b636-5d2b827fa4ff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "db6dffbf-095f-49ee-9e56-7d56b2c674fb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b7022c06-dae4-4c64-8ae3-bd1ae9896f52")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/1fb5cba5-fe5a-4aba-b82b-13cd9370505b/27b80d50-cd0f-4cf2-8a51-03b04ba060d5")
 		(sheetname "Power")
@@ -2823,6 +3252,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "PTVS22VZ1USK"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ee2af10c-9ef1-47b1-8cc3-ab86d3f73c6b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Nexperia"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "05385b31-f7ba-4963-8ff3-0fd8f04eb1dd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "DSN1608-2"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a5f572ea-d82d-4a8e-97fc-ff47cd935c67")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -3063,6 +3531,45 @@
 				)
 			)
 		)
+		(property "MPN" "PTVS10VZ1USK"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1b84660e-dbea-452b-bc23-9d6aac847cff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Nexperia"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "472b259b-4219-4653-8f58-10d7f861e5bb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "DSN1608-2"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ab35742b-904a-4291-a31a-0028641731bf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "*DSN1608?2*")
 		(path "/40d3097f-c466-4abe-82b2-075f2bc56bfc")
 		(sheetname "Root")
@@ -3299,6 +3806,45 @@
 				)
 			)
 		)
+		(property "MPN" "CL21B105KOFNNNG"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b3141f88-4ef2-43bf-91dd-c6448877fda9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5849fdc1-43f2-4b3c-bd3e-41117a72f9be")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5d76ea76-80ea-4537-a2ec-e1e26589fd27")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/c4f3064a-8a0a-4266-a87c-3236261c4a96")
 		(sheetname "Root")
@@ -3508,6 +4054,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "CL21B106KPQNNNE"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e3a92d4d-4709-41b9-984c-62036ebf01bd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1420aa49-f1c2-43d8-a704-32e6c387ca2b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bcb1b04a-00bd-4b77-a6cb-ad6c8d4eb2e3")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -3738,6 +4323,45 @@
 				)
 			)
 		)
+		(property "MPN" "AC0805FR-7W100RL"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "769ca4a6-c058-468e-b2f3-35ed4628b809")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "168e1448-3f10-465a-86d5-bb4d96ee02d4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f32b0cc0-7aba-4dee-8ce5-57169f1ea846")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/569ba513-db4e-4a75-8161-f5cfa6b9cf84/1d3ceb37-7b18-4736-a98a-2975e4bb8b2c")
 		(sheetname "Sensor Module Prototype")
@@ -3947,6 +4571,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "PTVS10VZ1USK"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2ec16b67-56df-47fc-b2f9-de16f8830b3d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Nexperia"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fa59e7e6-4f6e-44aa-a485-b39eed29fe51")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "DSN1608-2"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f3d12f09-fa19-43be-b1e8-b7311058bd51")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -4200,6 +4863,45 @@
 				)
 			)
 		)
+		(property "MPN" "CC0805KRX7R7BB104"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3d9d3d6b-bf52-4b4b-b943-75b1e75603b7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cd5882f7-b2b8-4ae2-82cf-5a9721ca3b49")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "080baf4e-826e-4e44-bf85-697cb1c2a810")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/1fb5cba5-fe5a-4aba-b82b-13cd9370505b/ec3ad5a6-0680-4574-bd42-52a621c240da")
 		(sheetname "Power")
@@ -4427,6 +5129,45 @@
 				)
 			)
 		)
+		(property "MPN" "CC0805KKX7R7BB824"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "310d087b-a8f3-4ae0-9e2c-f395bbc40c3a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f093cadd-f09d-4ab3-b745-d1e9651baa66")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d7af59f6-5ea5-43f7-91dc-db20bf4253fe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/569ba513-db4e-4a75-8161-f5cfa6b9cf84/f088b157-066c-476b-acd4-caa94cfec7ac")
 		(sheetname "Sensor Module Prototype")
@@ -4640,6 +5381,45 @@
 				)
 			)
 		)
+		(property "MPN" "AC0805FR-7W10KL"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ce912970-b03a-42f9-83f2-e05b7c2a2ef8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7996d775-5329-42ee-a69a-04503cb5cf14")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b4381c3e-1ee3-4dd4-803e-71fa4d6163b3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/1fb5cba5-fe5a-4aba-b82b-13cd9370505b/8a2546b6-6e19-40cb-a05e-92a5cf97612a")
 		(sheetname "Power")
@@ -4847,6 +5627,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "AP63200WU-7"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c4662ef3-fbc1-4ea7-87ae-a60cf7b609e0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d68b8ffb-fce8-4acb-a2cd-a0fa5363955f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "TSOT-26"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4fc04f2c-b28b-4ef5-bafe-fb2e480a9b19")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -5164,6 +5983,45 @@
 				)
 			)
 		)
+		(property "MPN" "RCC0805470RFKEA"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "39d1deec-8985-43b4-8b6c-1f73797fe60a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Vishay-Dale"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "20b55dd3-afb1-4082-8888-9405613b8546")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "500f019f-2ae4-4a6c-adc6-ed2a58c880f5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/569ba513-db4e-4a75-8161-f5cfa6b9cf84/0ed37a31-198c-4cff-81d6-453957cc51d8")
 		(sheetname "Sensor Module Prototype")
@@ -5391,6 +6249,45 @@
 				)
 			)
 		)
+		(property "MPN" "CL21B105KOFNNNG"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4078308d-0c35-4e9a-bf3c-6a10eab015c4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "62b6850e-e6aa-421e-b6ed-4d58599659f5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b40ba31a-7740-49c5-af3e-53c0ec89855f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/1fb5cba5-fe5a-4aba-b82b-13cd9370505b/af92969b-c23d-43f6-9b30-c6eefc4675b2")
 		(sheetname "Power")
@@ -5598,6 +6495,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "TLV4387PWR"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f87582de-dc49-457b-b25e-748f4481683c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "TI"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "16374372-c05b-4716-bf43-e6cb02bb87fb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "TSSOP-14"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "56be9b61-3e45-4f0d-a1ae-fb01963a7da6")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -5975,6 +6911,45 @@
 				)
 			)
 		)
+		(property "MPN" "B230-13-F"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1b9490da-464b-43dc-91ec-bea44975076f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Diodes Inc."
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "052b1d4f-1a7f-475f-92c6-cbc3a2f5ad2c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "SMB"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b3c37390-e158-4023-9870-aa00a7c4754b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "D*SMB*")
 		(path "/4e096a74-ff29-463d-8e2a-2f4b65c4f0fe/dd4de1b2-f9aa-41fb-ba33-9b74ec021452")
 		(sheetname "Micocontroller")
@@ -6261,6 +7236,45 @@
 				)
 			)
 		)
+		(property "MPN" "CL21B106KPQNNNE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2402833c-e650-4d7c-b41d-26121d8f60b5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1778ec4d-7205-4d78-a6c8-0f41a5f73cb1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e2e4847f-949b-466f-9391-8541823faf85")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/4e096a74-ff29-463d-8e2a-2f4b65c4f0fe/519e930d-3d39-4d5a-9876-abde74014a6e")
 		(sheetname "Micocontroller")
@@ -6470,6 +7484,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "B230-13-F"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "75bd3eca-415b-47ef-8771-6a7ed46244bd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Diodes Inc."
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "850674d9-6705-4ee8-bb6b-f4e0a2904b4a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "SMB"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0318fe30-5610-45a5-82ad-01bac80a5f50")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -6712,7 +7765,7 @@
 			)
 		)
 		(property "Value" "27k/1%"
-			(at 0 1.65 360)
+			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "8a31899f-f7f0-432e-9032-13c5041ab335")
 			(effects
@@ -6767,6 +7820,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "14c590f6-ee9f-4db5-b30e-89c060101146")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "RC0805FR-7W27KL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9ff360cd-9bd6-4755-9cf5-089d63c595e5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9289bc50-953e-48bd-82fc-89b782adf6d9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5a2de2ff-809b-4ade-97f8-f9a837238822")
 			(effects
 				(font
 					(size 1 1)
@@ -6880,7 +7972,7 @@
 			(uuid "2d991501-8b3e-4f9c-bdd5-64ee2944d8eb")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "54162cfb-2d55-4fbe-bac2-7084135f8ba9")
 			(effects
@@ -6984,6 +8076,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "AC0805FR-7W10KL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fe20c7b6-5566-4acd-992c-0478079ca2b2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9c9a21f8-5e04-4c4c-b84b-cb142074cebd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f08ca2dd-bf05-4289-b246-d97279cc4b28")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -7215,6 +8346,45 @@
 				)
 			)
 		)
+		(property "MPN" "AC0805FR-7W100RL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6f582209-c201-411d-b2e3-8d13be3a6673")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b6672e25-9d2e-4555-ab3d-6c9f681c9bf8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "78c65617-501e-4bdb-87b5-a1a7e55469e8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/569ba513-db4e-4a75-8161-f5cfa6b9cf84/f11a2ef8-b3a4-46ab-bf7d-9ec5d6fdf024")
 		(sheetname "Sensor Module Prototype")
@@ -7368,7 +8538,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C10"
-			(at 1.0375 -2 0)
+			(at 2.205609 -2.157796 0)
 			(layer "F.SilkS")
 			(uuid "d683e098-6fa5-401e-ac17-7de76771d88a")
 			(effects
@@ -7378,7 +8548,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1u"
 			(at 0.0375 -4 0)
 			(layer "F.Fab")
 			(uuid "a53792a1-4b82-4e29-bf3b-b6c7bccead60")
@@ -7424,6 +8594,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "CC0805KRX7R7BB104"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "af3a8d79-1e22-429d-bd9f-2d32657f4fa7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9a666d63-4429-415a-b46c-c36fdcbc1d6b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "59909c57-b6e7-4fa2-96df-06952c649344")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -7582,7 +8791,7 @@
 		(descr "JST ZH series connector, S2B-ZR-SM4A-TF (http://www.jst-mfg.com/product/pdf/eng/eZH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST ZH horizontal")
 		(property "Reference" "J5"
-			(at 5 1 90)
+			(at 5 1 180)
 			(layer "F.SilkS")
 			(uuid "865756e8-9ffd-4989-b053-6af8d185d7df")
 			(effects
@@ -7639,11 +8848,50 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0f16c12e-0286-4bee-8dd3-8718caa397de")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "41858584-29a1-4d7d-9216-8fb4d5cd61da")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a33919f4-6408-412a-9928-7b1ed0b8c0ea")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/450890d1-6784-4731-9986-e6645178f07a")
 		(sheetname "Root")
 		(sheetfile "digital_waters.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start 3.11 -2.11)
 			(end 1.36 -2.11)
@@ -7888,7 +9136,7 @@
 		(descr "JST ZH series connector, S7B-ZR-SM4A-TF (http://www.jst-mfg.com/product/pdf/eng/eZH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST ZH horizontal")
 		(property "Reference" "J3"
-			(at -14.08 -89.65 90)
+			(at -8.54 1.05 180)
 			(layer "F.SilkS")
 			(uuid "34c7225a-a1ba-4ed1-8311-1fe6b0a3d142")
 			(effects
@@ -7945,11 +9193,50 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a3806faa-f7a1-4ce0-8249-53418249bc3c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ecc0d71f-b061-4381-9307-85b035eafd6c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f8075793-e580-4631-8911-d60e8a76d328")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/d074d396-1b9e-417c-90a3-2179fd1eb382")
 		(sheetname "Root")
 		(sheetfile "digital_waters.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -6.86 4.11)
 			(end 6.86 4.11)
@@ -8131,7 +9418,7 @@
 			(uuid "f2522cc3-a5f6-4efd-a69e-1ffaf3448055")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
+			(at 0.46 0.05 180)
 			(layer "F.Fab")
 			(uuid "1fccf7c4-0c99-4196-8b56-606d90e22dc6")
 			(effects
@@ -8310,6 +9597,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "591d7e51-3657-46f4-89f3-616a68dae4b1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "CL21B105KOFNNNG"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c6e728bb-ff33-4a31-b885-7155bd2adcc2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4a9bca09-ba35-428b-bd0c-47a674438f89")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9c389936-4748-4caf-b02e-0c706ac3934a")
 			(effects
 				(font
 					(size 1 1)
@@ -8535,6 +9861,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a9b7d42e-2e20-4fa7-aa20-7b23b1d39f17")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "TPS22929DDBVR"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "19d15128-b3c6-4fa4-906e-39c1bf35a028")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "TI"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "59d07d90-038d-4317-ab33-814b466c51b2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "SOT-23-6"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a3456ad3-7e4f-4912-9429-54219d8161aa")
 			(effects
 				(font
 					(size 1 1)
@@ -8844,6 +10209,45 @@
 				)
 			)
 		)
+		(property "MPN" "DFE322512F-3R3M=P2"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "29b83227-9fe6-48aa-b549-2295da1d9022")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cd24301c-3f82-43e2-83b1-ab51f5c27ef8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "1210"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "898d9668-ea9b-4529-9a40-17e6b2752684")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/1fb5cba5-fe5a-4aba-b82b-13cd9370505b/2c98d872-e7c6-4742-8e31-e8a41e85976f")
 		(sheetname "Power")
@@ -9067,6 +10471,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9b8e8084-66a9-4cff-8b4b-5e583e458654")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "AC0805FR-7W1KL"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e065d4f2-2880-4d45-a3ce-da9af02775eb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d8800c36-0e0f-4997-a6a0-87ada08faab0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "91d2eadf-8dfb-4d50-9da9-41ff38b9f90d")
 			(effects
 				(font
 					(size 1 1)
@@ -9301,6 +10744,45 @@
 				)
 			)
 		)
+		(property "MPN" "CC0805KKX7R7BB824"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "37605129-4b20-4645-9c35-16a4a4d79708")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e0e61fe2-36e5-4f85-9d1f-180c4d886bc1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "da9cca73-1839-43af-a33f-4912d1236b0f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/569ba513-db4e-4a75-8161-f5cfa6b9cf84/bfc0905c-b8ab-496b-9450-9de8fd54a00e")
 		(sheetname "Sensor Module Prototype")
@@ -9527,6 +11009,45 @@
 				)
 			)
 		)
+		(property "MPN" "AC0805FR-7W10KL"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "20f7e53e-23af-482a-af3d-74a4303e4796")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f46606dc-eb0d-4f6e-b4ec-3619b6e2237c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "32e7c2a4-6f1b-4400-8668-0b1c509ec591")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/569ba513-db4e-4a75-8161-f5cfa6b9cf84/08765ee4-9cd6-4e16-a819-0b5db1c0c818")
 		(sheetname "Sensor Module Prototype")
@@ -9746,6 +11267,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8247e6e1-76d2-4b4d-919a-e13498d6441c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "CL21B474KOFNNNE"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "296fff17-6642-493a-af65-1094fc06887a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6da8c21d-2a2d-4238-9403-ed0d0756fa73")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6bd07dbd-e076-4adf-aa65-3eb28da4c7ec")
 			(effects
 				(font
 					(size 1 1)
@@ -9980,11 +11540,50 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f4807e85-9f0a-4932-b641-2d0f03345be3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "de8605d5-9367-4b5b-a19e-133b9a0cbf36")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "1206"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d926d0d1-ea6e-4549-8442-b774222e798b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/1fb5cba5-fe5a-4aba-b82b-13cd9370505b/abb6adc7-2842-49fa-98ff-c6aea76ae578")
 		(sheetname "Power")
 		(sheetfile "power.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.727064 0.91)
 			(end 0.727064 0.91)
@@ -10206,6 +11805,45 @@
 				)
 			)
 		)
+		(property "MPN" "CL21B105KOFNNNG"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cab85d96-b3c8-48e4-8272-e765a6e27712")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2d68d294-976c-4734-9450-10ad264e624b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "05891023-844a-48d7-bad8-50e03ca8c305")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/1fb5cba5-fe5a-4aba-b82b-13cd9370505b/bd728d0d-039a-46c8-87cd-bfdea369a0cd")
 		(sheetname "Power")
@@ -10416,6 +12054,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "AC0805FR-7W1KL"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cd3b9f0d-2006-4e7c-8ef6-bcf80984fd08")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2844837f-d7d7-4f87-a4d2-2ceb5a1abe67")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a49e8bf1-201d-4389-81dd-2bef1b67e10a")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -10646,6 +12323,45 @@
 				)
 			)
 		)
+		(property "MPN" "AC0805FR-7W1KL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "02c3ac5a-83ef-4030-9f6b-17c016b8e76d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "41eb424f-a61a-43dd-a987-d3928e9dc780")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "652f7b01-01a3-4d33-84f0-6c36d733ce10")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/569ba513-db4e-4a75-8161-f5cfa6b9cf84/d9f6243d-8e17-4b7b-b93f-1885fae81114")
 		(sheetname "Sensor Module Prototype")
@@ -10855,6 +12571,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "CL21B106KPQNNNE"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b9bc2de2-32ce-4195-8462-81e44e9e4443")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0ea19fe2-48e9-4855-bbf8-2d3d90dbc411")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e28bb285-cb31-4683-ae71-d2c6ca52c434")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -11070,6 +12825,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "RCC0805470RFKEA"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c899a083-2820-4d81-b646-0517ef9b3c3c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Vishay-Dale"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e0373e16-3ef0-4f28-87f8-ce3d5b8754cb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9c5bf891-74ec-4248-977a-ce79aa7f7974")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -11293,6 +13087,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b38e6175-fd14-4bd9-8906-077c33240779")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "CC0805KKX7R7BB824"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "84a8f7ee-e711-46eb-9cca-72b15957a095")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "326488b0-e82b-49d3-8d61-8cf8fafc045f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "98837c0f-ce2f-40f8-b43e-4530d15827e1")
 			(effects
 				(font
 					(size 1 1)
@@ -11526,6 +13359,45 @@
 				)
 			)
 		)
+		(property "MPN" "AC0805FR-7W1KL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "14bade82-c78a-4707-9fe3-3000223ca6ec")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "94ec0638-eafe-4fc6-8f99-987a8edf57fc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dfb8b616-6eed-4713-bb3f-b8dce0efe6b9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/569ba513-db4e-4a75-8161-f5cfa6b9cf84/437fdfce-32ca-4677-8e4f-ee76ae469b94")
 		(sheetname "Sensor Module Prototype")
@@ -11732,6 +13604,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "TLV2387DR"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "177605e3-b9d9-4c7e-947a-fda17c732c03")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "TI"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4ffca61f-d984-4439-8ff2-db5de8e12332")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "SOIC-8"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "33cd85c1-4009-4ecc-981c-b92d90355c66")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -11990,7 +13901,7 @@
 		(descr "JST ZH series connector, S2B-ZR-SM4A-TF (http://www.jst-mfg.com/product/pdf/eng/eZH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST ZH horizontal")
 		(property "Reference" "J1"
-			(at 0 -4.2 90)
+			(at -4.3 -3 180)
 			(layer "F.SilkS")
 			(uuid "0b9a0dd7-e211-42e0-8abf-7ed49b79d0ab")
 			(effects
@@ -12047,11 +13958,50 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cf7d2a92-b80f-4023-a9d0-45fc070c9d88")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5dc75323-9045-46f2-bb09-1c3536fbf020")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7db9385c-948d-4cb7-8b4e-08cfc333fa0a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/114fb370-aa76-4c7e-8222-506ec52f46f7")
 		(sheetname "Root")
 		(sheetfile "digital_waters.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start 3.11 -2.11)
 			(end 1.36 -2.11)
@@ -12369,6 +14319,45 @@
 				)
 			)
 		)
+		(property "MPN" "CC0805KRX7R7BB104"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b8d3763a-1c6d-4320-b87c-42cd2e0407b5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ffb40dd1-17f4-48ae-a262-7930adc957b3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "232ec2f6-9b6b-4f81-8cb3-7e33133b2de4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/1fb5cba5-fe5a-4aba-b82b-13cd9370505b/396779ce-2313-4134-9870-dd46696142f0")
 		(sheetname "Power")
@@ -12596,6 +14585,45 @@
 				)
 			)
 		)
+		(property "MPN" "CC0805KKX7R7BB824"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cf46e7f9-0343-4da3-b8c1-b685213b1e9f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f8205505-0df1-40a8-805d-6bbd12087e6d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3dc0cea0-fb95-4a8b-b5b6-eb871a845094")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/569ba513-db4e-4a75-8161-f5cfa6b9cf84/85646e28-a9d4-4775-b4da-3e5bcac07c6d")
 		(sheetname "Sensor Module Prototype")
@@ -12805,6 +14833,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "CL21B105KOFNNNG"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a412779c-e239-4481-b740-cb973862706c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b1f2f958-fbcb-446d-aa86-cf7228e0fc47")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6351b3e3-9ae0-48db-b6a8-009be3f480eb")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -13035,6 +15102,45 @@
 				)
 			)
 		)
+		(property "MPN" "CC0805KRX7R7BB104"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "79674df1-d5c8-42ce-baba-baa714946f78")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "759a24ac-dde8-4aaf-96e0-cdae5116f03f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "68f5eba1-5fd2-4e4d-8aef-91f18ae91ad5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/1fb5cba5-fe5a-4aba-b82b-13cd9370505b/2ebafba7-4b8f-43da-b81e-e69d2ef57a72")
 		(sheetname "Power")
@@ -13245,6 +15351,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "GRM21BZ71A226ME15L"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f1ca0123-d570-49cc-9f83-b32dc2da50a4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3ed6ee96-b187-4441-a1f6-8ac666b849ac")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "01468829-f816-468c-817c-3c0d529d4f5d")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -13477,6 +15622,45 @@
 				)
 			)
 		)
+		(property "MPN" "CC0805KRX7R7BB104"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c190e9be-2d90-4c5d-a384-c1bb6597a6d6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0e7a0b5d-e00a-4eb9-9d39-fc9d5eff3782")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d03360fa-3622-4bf3-81e2-ba39075e8a30")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/569ba513-db4e-4a75-8161-f5cfa6b9cf84/9729c6c4-02bb-4ed3-b3bf-37568f941922")
 		(sheetname "Sensor Module Prototype")
@@ -13687,6 +15871,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "LTST-C170GKT"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7cc41dcb-bd01-4da5-b12b-798bceabe232")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Lite-On"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ae2f40df-483d-45ff-a4c9-a3489626d7e8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0c7e5eec-de71-48ca-a15b-bde05cc6f385")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -13940,6 +16163,45 @@
 				)
 			)
 		)
+		(property "MPN" "CC0805KRX7R7BB104"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c0c9ac65-5b24-47d4-86bf-b4881484e9f1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bbe3dd4f-732a-40f3-aa2f-228dcff229b4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "68b5ac2e-849d-445f-b1a2-254d281e427c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/569ba513-db4e-4a75-8161-f5cfa6b9cf84/726eb00e-5230-474d-82b1-570d48d739d2")
 		(sheetname "Sensor Module Prototype")
@@ -14094,7 +16356,7 @@
 		(descr "JST ZH series connector, S7B-ZR-SM4A-TF (http://www.jst-mfg.com/product/pdf/eng/eZH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST ZH horizontal")
 		(property "Reference" "J4"
-			(at 3.46 -90.95 -90)
+			(at 9.46 1.05 0)
 			(layer "F.SilkS")
 			(uuid "dbc9b3da-bee5-4796-92b7-1880c5a645e5")
 			(effects
@@ -14151,11 +16413,50 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "25d50cf6-e4ec-4e32-90ad-8f19b4a57188")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "76596ab8-38ce-466b-b1a3-05490a9cef79")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2c12ea76-8779-457d-9793-2addeb16a542")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/ee3c1ccf-d76e-45e5-a360-397ce9d403f8")
 		(sheetname "Root")
 		(sheetfile "digital_waters.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -6.86 4.11)
 			(end 6.86 4.11)
@@ -14337,7 +16638,7 @@
 			(uuid "b9518d3b-faa4-4808-9cb8-a9682faa8532")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 -90)
+			(at 0.46 1.05 0)
 			(layer "F.Fab")
 			(uuid "5e615455-06eb-4adb-af58-d874c4cbdbe8")
 			(effects
@@ -14519,6 +16820,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a11f3390-963c-4a34-99a7-fd848e28da98")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "AC0805FR-7W100KL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4133092e-3d33-40fd-8315-afbc7c76c427")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "626f2a8d-8a11-41b9-9d63-5855f8a11cef")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aaff49fe-336e-46e6-9b81-151c59b7a88a")
 			(effects
 				(font
 					(size 1 1)
@@ -14752,6 +17092,45 @@
 				)
 			)
 		)
+		(property "MPN" "AC0805FR-7W100KL"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "06c8bf84-db1a-425a-bba5-732feaccf2a1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3284f249-254f-4e5b-99d0-4b54eae78ea2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e36fdcbb-0405-4f1d-aaf0-e5cff3ce175f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/569ba513-db4e-4a75-8161-f5cfa6b9cf84/6f57031b-e203-44f3-8957-f8624ae40735")
 		(sheetname "Sensor Module Prototype")
@@ -14906,7 +17285,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C38"
-			(at 0 2.542473 0)
+			(at -0.040896 1.754404 0)
 			(layer "F.SilkS")
 			(uuid "678bbe3f-6bcf-4520-9140-35dad6fb59af")
 			(effects
@@ -14962,6 +17341,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "C0805C101M4RACTU"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "37dab8a1-d823-47c9-b0e4-22057b98524f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "90325038-65ca-4567-b00a-b5fa1d298e14")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b1a49860-09e9-42f0-8a9f-338fe6739e10")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -15175,6 +17593,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "AC0805FR-7W100KL"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b664d167-a79a-4f32-b975-9f4689d0de97")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3ed5536b-a2e1-4440-b028-67c1580646a7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0678d32d-bf4f-427d-a814-8b5496449f84")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -15398,6 +17855,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b75730cd-3926-401c-ae0d-22f075a12b53")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "CC0805KKX7R7BB824"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ec0154d7-87b6-4633-a1b3-f9cdfefc7acc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4e275a06-4fff-4e73-beac-77976d3e0fcf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "46dc70f5-ec6c-4e83-9146-e481c5477f17")
 			(effects
 				(font
 					(size 1 1)
@@ -15631,6 +18127,45 @@
 				)
 			)
 		)
+		(property "MPN" "AC0805FR-7W4K7L"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8f783eec-f120-4e0d-a80e-022956fe8c84")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dcdc3654-70e3-473c-8478-23d88a6b0d3a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b85a2cf4-a4aa-4a9e-bb64-b0d5573756d7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/569ba513-db4e-4a75-8161-f5cfa6b9cf84/b15f9799-aa36-4b14-acbc-a058186cc1d7")
 		(sheetname "Sensor Module Prototype")
@@ -15855,7 +18390,46 @@
 				)
 			)
 		)
-		(path "/1fb5cba5-fe5a-4aba-b82b-13cd9370505b/37c0cdba-a0a3-40f9-bfed-8f77f686f5fc")
+		(property "MPN" "TLV4387PWR "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "606e96cc-1dfe-4408-8202-3dc07e227b32")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "TI"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4af489ec-2c76-4f78-b87b-91ccb0539afa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "TSSOP-14"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "507c73e3-fbda-47ef-9b0b-611aa7a14a3a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/1fb5cba5-fe5a-4aba-b82b-13cd9370505b/7bd79318-a2d8-43ae-94cb-1537ab3a6e24")
 		(sheetname "Power")
 		(sheetfile "power.kicad_sch")
 		(attr smd)
@@ -16168,7 +18742,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R15"
-			(at -3.529081 -0.128379 180)
+			(at 3.274805 -0.047452 180)
 			(layer "F.SilkS")
 			(uuid "2ad0b777-7ba5-46a1-9f16-6fa546e89631")
 			(effects
@@ -16224,6 +18798,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "RK73H2ATTD6202F"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6d3dd641-7b2e-4296-b9e1-45737dcc2684")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "KOA Speer Electronics, Inc."
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "425d0de6-f26a-4a8a-be65-7f8e3c714dce")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d01877d8-ebf3-4129-a16f-505060b5a844")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -16455,6 +19068,45 @@
 				)
 			)
 		)
+		(property "MPN" "AC0805FR-7W1KL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ffea1b69-1c3c-48a3-88df-f9debc46d216")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "44b7b126-f1ed-40d2-b518-254949444e16")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "20db04b0-e871-4db2-9e32-553b7090187c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/569ba513-db4e-4a75-8161-f5cfa6b9cf84/db867fe6-bb31-43ed-9626-94d6f6adb87f")
 		(sheetname "Sensor Module Prototype")
@@ -16674,6 +19326,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "54453a00-58e4-476e-8fc6-9a50fe6d79e8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "CL21B105KOFNNNG"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0b7bc96e-6bb6-47f8-a507-69098fedc944")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eb4bc048-b390-49db-87cd-3bd15f2bd013")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "abb99b95-c0e4-4e80-a6ff-88d959f5f30d")
 			(effects
 				(font
 					(size 1 1)
@@ -16908,6 +19599,45 @@
 				)
 			)
 		)
+		(property "MPN" "CL21B105KOFNNNG"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "421753ce-fe55-4c10-94dd-dc714a7f074d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e2140065-7073-4bec-ac87-b7a5271ff8f3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "11e3d7ac-3820-4c86-a3dc-445dcc90967e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/569ba513-db4e-4a75-8161-f5cfa6b9cf84/a51f81c5-769d-4f82-a506-ec2d4bb813f2")
 		(sheetname "Sensor Module Prototype")
@@ -17115,6 +19845,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "ST485EBDR"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ee96d379-dc44-48e3-a464-1ae19c4bdc4e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "ST"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "49564b87-6d13-4004-8f3b-576c08efff73")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "SOIC-8"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9bb6b85b-ef8f-48d6-8f22-f2f959e030bf")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -17437,6 +20206,45 @@
 				)
 			)
 		)
+		(property "MPN" "CC0805KKX7R7BB824"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "95ac3c45-0310-42c2-83a9-b37de128abb8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2b48aa8b-796e-4688-92ef-45362c04a201")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8a9c621b-08b5-4444-9b74-756683eea34b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/1fb5cba5-fe5a-4aba-b82b-13cd9370505b/4502b17e-ddd0-41ad-b042-74ba65f2931d")
 		(sheetname "Power")
@@ -17650,12 +20458,38 @@
 				)
 			)
 		)
-		(property "Resistance" ""
+		(property "MPN" "AC0805FR-7W10KL"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1f563e29-efea-4f3e-b55a-acb6f330661f")
+			(uuid "c696cd96-3649-4823-98b3-e973c4d23834")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ab9e702f-6a2f-4ea5-8e5b-ec5667fe20cf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "99edad7b-6617-41f2-b7a5-d8f70347a264")
 			(effects
 				(font
 					(size 1 1)
@@ -17876,6 +20710,45 @@
 				)
 			)
 		)
+		(property "MPN" "AC0805FR-7W10RL"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a7fff606-24a0-4839-a2a3-e47d13a0561d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "622dc18a-fbb7-48e6-b510-13224cff9387")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "906eef3c-1bd9-4e3b-b2b3-c8efb8d9abe1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/4e096a74-ff29-463d-8e2a-2f4b65c4f0fe/d1f44aac-d581-4356-b584-b7d83744ff0e")
 		(sheetname "Micocontroller")
@@ -18086,6 +20959,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "LTST-C170GKT"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eca7f39d-fee5-497d-9bb9-cc073ea79fb3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Lite-On"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "37c7719a-41c3-4383-9228-354bda3bcff5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f3bc0d39-bd68-4aeb-877f-01752954014e")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -18338,6 +21250,45 @@
 				)
 			)
 		)
+		(property "MPN" "RC0805FR-7W27KL"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "733e5283-677d-4ac9-aeb0-c50ca1db9783")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5976bba9-6c10-4577-8328-cd36774b16d9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c81acc3a-fd54-4dac-8edb-0bcd615ea76a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/569ba513-db4e-4a75-8161-f5cfa6b9cf84/60dbf97b-44f5-41f1-9eff-bdef59b8e6c7")
 		(sheetname "Sensor Module Prototype")
@@ -18491,7 +21442,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R31"
-			(at -3.281763 0.340618 360)
+			(at -3.281763 0.340618 0)
 			(layer "F.SilkS")
 			(uuid "b9cf7b66-5cfe-4322-9942-7ac744a732dc")
 			(effects
@@ -18502,7 +21453,7 @@
 			)
 		)
 		(property "Value" "100k / 1%"
-			(at 0 1.65 360)
+			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "9bd05249-952a-4b44-9038-778e11fca469")
 			(effects
@@ -18547,6 +21498,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "AC0805FR-7W100KL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bd7419d0-1e9f-4b81-aa8a-f8c9365b9251")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e48bb6f6-20fa-4fa2-988a-d21ba0491b88")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9b1591bd-018b-449c-a903-bf9033116362")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -18657,7 +21647,7 @@
 			(uuid "72d92ce2-6227-409a-8af4-615017e6beec")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "45abb8c9-6b8a-49f8-99e4-8a832c92f337")
 			(effects
@@ -18760,6 +21750,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "CL21B105KOFNNNG"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fb280f1b-46ff-4bea-82a3-345622a56f93")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9dcdf753-bbfa-4937-9acd-9b76ef6c032c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1264717b-6065-4cff-a149-f9395f9ddb78")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -18929,7 +21958,7 @@
 				)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "2.2k"
 			(at -1 2 0)
 			(layer "F.Fab")
 			(uuid "2559ae6c-4046-4855-859c-7750c2c64331")
@@ -18975,6 +22004,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "AC0805FR-7W2K2L"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f63d4cdb-cbae-4e99-b589-ce7d30e564a7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c6dee65c-d49f-4910-bed9-5591d897687a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b7262e32-c1fb-46fa-bd0a-85025f03667e")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -19189,6 +22257,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "CL21B474KOFNNNE"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dbd30b84-bc7a-4ca1-a8f3-05e82e4776fd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4c33b09d-f772-4c17-a285-b82fdae46eda")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b821d113-f551-4de5-a0d6-5d80849e055e")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -19412,6 +22519,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "bd1dd203-cbd1-4698-8ed2-78d0f5daa11a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "CC0805KRX7R7BB104"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "72ad5e97-5139-4c6f-b15e-de03df990a2e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5009a228-df81-4228-bb3d-96d6115a5109")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8158c2ec-9a74-41eb-856c-455739bb440b")
 			(effects
 				(font
 					(size 1 1)
@@ -19646,6 +22792,45 @@
 				)
 			)
 		)
+		(property "MPN" "AC0805FR-7W1KL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f66d454d-a22d-45b9-ac91-f959c559e0e2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c435ebd0-178c-4a98-8936-fbad239dc957")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d13a9f96-559b-424e-8121-19d472d3216b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/569ba513-db4e-4a75-8161-f5cfa6b9cf84/27623792-035b-4d2f-917b-3d3df2ddecf6")
 		(sheetname "Sensor Module Prototype")
@@ -19855,6 +23040,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "64e258f8-671c-4bc2-924c-5add4c17d9ca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6d944f2d-b28a-4194-84bd-64d8fbfc1989")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "87c97508-5346-4baa-87e8-60e0fc02a9af")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -20202,6 +23426,45 @@
 				)
 			)
 		)
+		(property "MPN" "REF3040AIDBZR"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a4cebe82-9856-4f9f-8e52-a8f645e8fac8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "TI"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "929cee8e-a035-43ae-a8cf-2b138f16ca53")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "SOT-23"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cc1137ae-97ad-49a1-93f2-1bc50094324d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/1fb5cba5-fe5a-4aba-b82b-13cd9370505b/ffe53b05-3fc4-4a26-93ba-c850adc39a80")
 		(sheetname "Power")
@@ -20419,7 +23682,7 @@
 				)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10u"
 			(at 0.9625 2 0)
 			(layer "F.Fab")
 			(uuid "5d668103-1401-43bc-a238-f16adcba2033")
@@ -20465,6 +23728,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "CL21B106KPQNNNE"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aecf4b74-17ba-4ad2-8d6a-b77d0959f4ef")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8221e08b-c2d7-4164-8a1c-b5819d98aab5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e0913c5e-6713-4b71-81bb-66b25ad20be4")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -20690,6 +23992,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b84c3206-9c3c-4347-9b11-b17ea9ead0d2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "CL21B105KOFNNNG"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9e982c88-b1cd-4a56-bf7d-fa7828f99246")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d369e904-8685-471f-8454-67882d371c49")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4744f4ee-fc09-42dd-8abb-2d03a9b46302")
 			(effects
 				(font
 					(size 1 1)
@@ -20924,6 +24265,45 @@
 				)
 			)
 		)
+		(property "MPN" "AC0805FR-7W1KL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aa9e837c-0e98-4ea0-a62c-0607ed12c11c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2ceb0e9c-d88b-45b1-930e-d3cc71f4a99d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4f998590-4de6-463a-b4c5-85f1d87cb3b0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/569ba513-db4e-4a75-8161-f5cfa6b9cf84/47918f8f-fffb-4c63-aa6f-64a55f3e5c9a")
 		(sheetname "Sensor Module Prototype")
@@ -21150,6 +24530,45 @@
 				)
 			)
 		)
+		(property "MPN" "AC0805FR-7W1KL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6e25f5e5-9b0e-447c-a2e0-10796625df61")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "39e058df-35f6-454a-b8df-d8ada9d70764")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "86e49a1f-d1a3-4034-afa7-e033f92d41a5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/569ba513-db4e-4a75-8161-f5cfa6b9cf84/c59e5c14-01c2-462c-92ff-97f17cdf9009")
 		(sheetname "Sensor Module Prototype")
@@ -21356,6 +24775,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "MCP1727-5002E/SN"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0bd6a6f1-729a-40d5-a78e-ccbed5732c4b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Microchip"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ca48af9f-681e-46ce-93ea-76715167d294")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "SOIC-8"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "377b42f1-6772-49ce-b9e9-b52ddb3b494c")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -21696,6 +25154,45 @@
 				)
 			)
 		)
+		(property "MPN" "AC0805FR-7W10KL"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8049a50b-0ddf-4508-8468-3a6e0ac65e3d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "192abb0d-ad27-453a-a935-a48f608f9253")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "288931af-5115-4b4b-b70d-2c05ca8224e3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/569ba513-db4e-4a75-8161-f5cfa6b9cf84/26d32e28-42ec-4e0b-a56f-ec13d180d3ee")
 		(sheetname "Sensor Module Prototype")
@@ -21912,6 +25409,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "582d9d59-25c6-431c-813f-bbfbe1e6d764")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "REF3025AIDBZR "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4afec85c-ebc6-4e82-8c51-fc0c5c9fd350")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "TI"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a9104dd7-cc28-4e8e-ba0d-3b56527e831d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "SOT-23"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "65b371d7-411b-4ef6-864c-29f8615683a5")
 			(effects
 				(font
 					(size 1 1)
@@ -22136,7 +25672,7 @@
 				)
 			)
 		)
-		(property "Value" "96k / 1%"
+		(property "Value" "91k / 1%"
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "d7ae9b38-b50c-4a60-9034-498344035f50")
@@ -22192,6 +25728,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8629b628-351f-480b-8573-29bd3195b7aa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "AC0805FR-7W91KL"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c63aae1a-5139-4b9d-88bf-7937070fd185")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dc4d84e2-154c-40ab-84ac-b2abe7235121")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "06bdb919-9181-4c76-a174-8a750a133499")
 			(effects
 				(font
 					(size 1 1)
@@ -22405,6 +25980,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "DIO5661ST6"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8efd13b9-4db8-424d-b901-60580b482d54")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "DIOO"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "af1586ef-c9a2-41a7-b497-7ebd478705a5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "SOT-23-6"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8778c381-b839-447d-8972-423fdbeea515")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -22719,6 +26333,45 @@
 				)
 			)
 		)
+		(property "MPN" "CC0805KRX7R7BB104"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "43a4c773-483a-45d9-beee-65a17837f62b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d01763c5-16b8-409d-acea-a2984b4d76b5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "09d0283d-9357-4564-848f-2851b1fe265f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/569ba513-db4e-4a75-8161-f5cfa6b9cf84/a0cfe898-8dd9-4a2a-bde3-d9fe4f7b6da7")
 		(sheetname "Sensor Module Prototype")
@@ -22872,7 +26525,7 @@
 		(descr "JST ZH series connector, S4B-ZR-SM4A-TF (http://www.jst-mfg.com/product/pdf/eng/eZH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST ZH horizontal")
 		(property "Reference" "J2"
-			(at 3.8 -2.95 90)
+			(at -3.676054 -4.405939 180)
 			(layer "F.SilkS")
 			(uuid "22962104-01c3-47d7-9860-7baaab963599")
 			(effects
@@ -22929,11 +26582,50 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7b818950-0529-48a1-be82-ab6cfaa1a147")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6f59ddae-0bda-40a6-a0b7-e8a4d2b9b121")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "17cb255e-e65e-478e-93e7-147a9705b5cf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/078575bd-8454-4862-909f-f36d4ae981fe")
 		(sheetname "Root")
 		(sheetfile "digital_waters.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start 4.61 -2.11)
 			(end 2.86 -2.11)
@@ -23274,6 +26966,45 @@
 				)
 			)
 		)
+		(property "MPN" "CL21B105KOFNNNG"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cbdb8dc5-1055-437c-a72f-2756aa157fc2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7056d5d7-6e7e-4022-a326-0ef7c05da29e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fd30aa0e-ea90-4184-bcb7-b66dcf5e3f75")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/1fb5cba5-fe5a-4aba-b82b-13cd9370505b/422005b7-7c3a-45ed-97d5-54c0cab2bfda")
 		(sheetname "Power")
@@ -23501,6 +27232,45 @@
 				)
 			)
 		)
+		(property "MPN" "CL21B474KOFNNNE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fb7a6927-c8f4-4089-a6cd-934650b6b93a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "373df2cd-2499-4ecf-a23b-d5b77e1683c8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b486db51-371b-495f-a5b2-c47326eb101f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/1fb5cba5-fe5a-4aba-b82b-13cd9370505b/3458c675-4d9f-448f-af7f-3a7fe089f856")
 		(sheetname "Power")
@@ -23711,6 +27481,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "B230-13-F"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ee3c7214-87fb-4296-a046-a6ed392d31ec")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Diodes Inc."
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "33637d1a-d504-47bb-83a9-186f62533b03")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "SMB"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "358214a2-4568-4f11-ad4f-e3388669c9b9")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -24015,6 +27824,45 @@
 				)
 			)
 		)
+		(property "MPN" "CC0805KKX7R7BB824"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a906ca38-f042-47ab-b8db-042afe069516")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aa0f7b9f-0cf1-470c-877f-b661f3c407f4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "456cc58d-6a15-4e6e-898b-bf639cdbcfdf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/569ba513-db4e-4a75-8161-f5cfa6b9cf84/a364a1e8-59f8-4810-a7db-08822ea8332b")
 		(sheetname "Sensor Module Prototype")
@@ -24224,6 +28072,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "LTST-C170GKT"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "669497da-40cf-4a3f-ab6a-de4fa7792e25")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Lite-On"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a85c8099-0ddf-47b9-9f8c-50b4ad385406")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5a8b2ce1-0921-426f-bd7d-5f8e9008f59f")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -24463,6 +28350,45 @@
 				)
 			)
 		)
+		(property "MPN" "CL21B106KPQNNNE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5692ed04-22ac-4b7a-910b-fcf74161cb4e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4b0fa416-f5f2-4939-aced-e6165ff0a65b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2c0fb526-fda1-406a-a926-fb9eba9d4575")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/1fb5cba5-fe5a-4aba-b82b-13cd9370505b/46fe9206-c95b-49c5-9429-015c478773db")
 		(sheetname "Power")
@@ -24691,6 +28617,45 @@
 				)
 			)
 		)
+		(property "MPN" "AC0805FR-7W1KL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a59c157a-5498-4381-83fe-b58cd40f7b16")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4538554a-bcbf-4038-8334-70d96386afb2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "50495fe5-e392-4932-ab09-b21ddc78bd16")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/569ba513-db4e-4a75-8161-f5cfa6b9cf84/38108def-e1ee-4723-9737-f92308c06cc1")
 		(sheetname "Sensor Module Prototype")
@@ -24900,6 +28865,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "RCC0805470RFKEA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d2afaf7a-8392-4bcc-a537-ee8eaece3239")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Vishay-Dale"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1e07e5b1-711c-4afa-a6b6-8847331cd81d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e9b03f67-8f9b-491e-8bcf-74a4ecf0d79e")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -25124,6 +29128,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "243736c9-b8ec-4033-a04f-bea052d6c242")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "AC0805FR-7W100KL"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b1f187d0-eab0-4da5-bdc1-b224fb59bcf2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a4b569cc-692c-4028-8a9b-ea212fd5e0c3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b5fa210a-15d2-4ab8-8374-d0c6f4fe7477")
 			(effects
 				(font
 					(size 1 1)
@@ -25357,6 +29400,45 @@
 				)
 			)
 		)
+		(property "MPN" "CC0805KRX7R7BB104"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e5a7fd7f-5d22-4f75-bb41-27c90c8ad8c5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "96a274a7-9698-452f-b184-bb120775a652")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "38b0606b-0696-451f-aef0-87842afed97a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/1fb5cba5-fe5a-4aba-b82b-13cd9370505b/2c45cb13-f66c-4e7e-8d2c-7e2068b80433")
 		(sheetname "Power")
@@ -25574,6 +29656,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "137195b0-1269-4e1e-97ae-7345378cd875")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "MCP3208-CI/SL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "889c0eb3-403b-4180-a6b5-a2438443005b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Microchip"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "86294091-fa8d-417c-b8e0-483db425dd25")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "SOIC-16"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9d130b29-2e33-41c5-a498-b8b6d0caf52f")
 			(effects
 				(font
 					(size 1 1)
@@ -25999,11 +30120,53 @@
 				(justify mirror)
 			)
 		)
+		(property "MPN" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e07d8ad1-e03e-4bf7-b262-2ceb585124d8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "cf0e38ec-ea0d-4413-be37-710c111c7b52")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Package" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a0cce197-7a30-4e56-a2d4-b0b68fc6a52a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/4e096a74-ff29-463d-8e2a-2f4b65c4f0fe/6567ac1d-be56-420e-9bfe-63d889da8b7c")
 		(sheetname "Micocontroller")
 		(sheetfile "microcontroller.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start 1.33 -25.56)
 			(end -1.33 -25.56)
@@ -27230,6 +31393,48 @@
 				(justify mirror)
 			)
 		)
+		(property "MPN" "CC0805KRX7R7BB104"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "dd4b6aa2-3d09-4400-8dd5-8d47d70e0fc4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "431e132e-4a75-49b0-a316-d61cd9ad2c67")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "aebeae67-0d59-4fe1-9a58-f76e5de08230")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/4e096a74-ff29-463d-8e2a-2f4b65c4f0fe/1ec77ff9-6dbe-403d-a189-37b36c196e34")
 		(sheetname "Micocontroller")
@@ -27464,10 +31669,52 @@
 				(justify mirror)
 			)
 		)
+		(property "MPN" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "8302ed9a-3d30-4b74-a0f9-97db215fcf0e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3facddcc-3a29-4455-ba36-2560d8ab7067")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Package" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a81d4f7a-9249-4ded-9b41-7f350bf9cb98")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/4e096a74-ff29-463d-8e2a-2f4b65c4f0fe/fa07d63e-c7cb-4d6e-b285-c5224084d05d")
 		(sheetname "Micocontroller")
 		(sheetfile "microcontroller.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start 1.33 -5.24)
 			(end -1.33 -5.24)
@@ -27914,6 +32161,48 @@
 				(justify mirror)
 			)
 		)
+		(property "MPN" "AC0805FR-7W4K7L"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6e7e64c9-60fc-4e92-b8e3-78cccbcc6a59")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5d347452-b247-4f2e-b234-1054f5f64b10")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "73f3d588-fc17-4c30-b4d2-5e2525a17f5e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/4e096a74-ff29-463d-8e2a-2f4b65c4f0fe/ccc13e35-55f0-4846-8d0c-81e91aa66e6e")
 		(sheetname "Micocontroller")
@@ -28148,11 +32437,53 @@
 				(justify mirror)
 			)
 		)
+		(property "MPN" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e7e38fda-f90e-4d0d-be79-5dce241bb7c6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "795bf083-c4c5-41b7-a4b2-b18a066abfe9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Package" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a092a85d-3e7d-48fc-8c04-50cf6c693e66")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/4e096a74-ff29-463d-8e2a-2f4b65c4f0fe/1c69e4f1-54e6-4fea-972f-86c3a7a98d11")
 		(sheetname "Micocontroller")
 		(sheetfile "microcontroller.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start 1.33 25.56)
 			(end -1.33 25.56)
@@ -29374,6 +33705,48 @@
 				(justify mirror)
 			)
 		)
+		(property "MPN" "M24C02-FMN"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1afd57a8-71fb-467c-930f-3003ee03b7fb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "ST"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d058b631-5e1f-4768-b961-7f2389ac20a4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Package" "SOIC-8"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7e70a597-5253-4e0f-a4fc-e4cd0b05989e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "SOIC*3.9x4.9mm*P1.27mm*")
 		(path "/4e096a74-ff29-463d-8e2a-2f4b65c4f0fe/a4afe5c3-2b03-442e-ac57-321c0f9e7504")
 		(sheetname "Micocontroller")
@@ -29711,11 +34084,53 @@
 				(justify mirror)
 			)
 		)
+		(property "MPN" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "0fbe11ed-03b8-4d58-9b79-f532a1447acc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5fbe5f67-6e2a-4918-9bc7-678b70dfe4df")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Package" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "03db7c30-e9ec-4c70-8cef-289f2139822f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/569ba513-db4e-4a75-8161-f5cfa6b9cf84/9f154c2a-fcf9-4f26-8a11-3b759fba735c")
 		(sheetname "Sensor Module Prototype")
 		(sheetfile "sensor_module_4.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -1.33 -6.51)
 			(end -1.33 -5.84)
@@ -30211,6 +34626,48 @@
 				(justify mirror)
 			)
 		)
+		(property "MPN" "CL21B105KOFNNNG"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "45a7dc00-b6bc-40d7-a842-13b8057adcb5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ee748696-7c56-407a-b248-bede40d1eb50")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "510e0373-ab4a-481a-b8b1-db6c96ab10a8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/569ba513-db4e-4a75-8161-f5cfa6b9cf84/62dd89d6-a9a9-475f-ae4d-f3ac741177cb")
 		(sheetname "Sensor Module Prototype")
@@ -30436,6 +34893,48 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "0c61a9e5-8d49-439c-afb4-fd0e67978d42")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" "AC0805FR-7W4K7L"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d4a0145a-aa11-4b3c-936f-92312d266725")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "176f9f4f-def2-480b-8b00-0edabc137f21")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1b59b2e2-fa70-480a-b644-59c8bd1c0a73")
 			(effects
 				(font
 					(size 1 1)
@@ -30677,6 +35176,48 @@
 				(justify mirror)
 			)
 		)
+		(property "MPN" "CC0805KRX7R7BB104"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "42afd84f-4882-4432-af20-690e4a4c31a2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "85bf01bc-405c-404c-ac90-54cf563988dc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "bf95c665-e643-458f-bc08-f9c04f21a769")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/4e096a74-ff29-463d-8e2a-2f4b65c4f0fe/efa4136d-43a4-42b3-b89f-fb9e0b0480de")
 		(sheetname "Micocontroller")
@@ -30910,6 +35451,48 @@
 				(justify mirror)
 			)
 		)
+		(property "MPN" "CC0805KRX7R7BB104"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "61ad74fb-a406-49f8-92c7-a53b733e3163")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9e12ffad-697b-46e7-925d-24cc7a5b877e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e298bb1c-0b8a-4200-aecf-1f9be3990ddc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/569ba513-db4e-4a75-8161-f5cfa6b9cf84/ac833505-d2f4-48db-ba6c-b23b2af9ca7c")
 		(sheetname "Sensor Module Prototype")
@@ -31135,6 +35718,48 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "0d4cd69e-b87e-423c-ad21-1fbbc50999bf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" "CL21B105KOFNNNG"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ab5ff2e2-5819-43bd-8722-20d0df0d2e24")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "164eb4a3-1890-47a3-a0e5-ab9f0ef9d5cd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Package" "0805"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f7e0ed81-dd79-4468-a525-53e7eb5eae9c")
 			(effects
 				(font
 					(size 1 1)

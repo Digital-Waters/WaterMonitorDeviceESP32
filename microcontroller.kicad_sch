@@ -3694,6 +3694,19 @@
 		)
 		(uuid "06f52b4a-7584-4259-a1d5-3d736443ba83")
 	)
+	(text "BUG: Audit the strapping pins.\nWhen attached to the board, the ESP32 module boots in a \nprotected mode. This may be due to the strapping pins \nbeing held low. Possibly GPIO_0 is the culprit. \nAdd a pullup or pulldown where appropriate on these \npins for proper booting."
+		(exclude_from_sim no)
+		(at 186.944 155.702 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "3307b9e1-3522-419f-bab4-59187f493790")
+	)
 	(text "We need a powered output and switch for the LED ring. \nIdeally, a constant-current LED driver would be used\nalthough I'd like to keep the option open to use a\nmulti-spectral led source which will probably want one\nchannel per LED. For now, maybe just a constant-current \nserial output?"
 		(exclude_from_sim no)
 		(at 38.1 21.844 0)
@@ -4227,7 +4240,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "1c69e4f1-54e6-4fea-972f-86c3a7a98d11")
 		(property "Reference" "J16"
 			(at 188.468 86.36 0)
@@ -4274,6 +4287,33 @@
 			)
 		)
 		(property "Resistance" ""
+			(at 191.77 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 191.77 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 191.77 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
 			(at 191.77 116.84 0)
 			(effects
 				(font
@@ -4406,6 +4446,33 @@
 			)
 		)
 		(property "Resistance" ""
+			(at 29.21 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0805KRX7R7BB104"
+			(at 29.21 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 29.21 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
 			(at 29.21 133.35 0)
 			(effects
 				(font
@@ -4558,6 +4625,33 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "CL21B105KOFNNNG"
+			(at 251.46 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 251.46 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 251.46 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ea857554-e86e-4588-a31f-e50c5ffe8d87")
 		)
@@ -4619,6 +4713,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 29.21 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL21B106KPQNNNE"
+			(at 29.21 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 29.21 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
 			(at 29.21 49.53 0)
 			(effects
 				(font
@@ -4715,7 +4836,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "6567ac1d-be56-420e-9bfe-63d889da8b7c")
 		(property "Reference" "J11"
 			(at 218.694 88.392 0)
@@ -4761,6 +4882,33 @@
 			)
 		)
 		(property "Resistance" ""
+			(at 218.44 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 218.44 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 218.44 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
 			(at 218.44 119.38 0)
 			(effects
 				(font
@@ -4969,6 +5117,33 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "AC0805FR-7W4K7L"
+			(at 207.01 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 207.01 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 207.01 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5be3ed17-1853-4f4f-9edf-726c39f68bac")
 		)
@@ -5039,6 +5214,33 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "DIO5661ST6"
+			(at 50.8 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "DIOO"
+			(at 50.8 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOT-23-6"
+			(at 50.8 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "625dbaf9-671b-4662-91bb-fae44c21fba0")
 		)
@@ -5060,6 +5262,10 @@
 		(instances
 			(project ""
 				(path "/37fdfe07-1a70-41c8-8af2-e03e19737580/4e096a74-ff29-463d-8e2a-2f4b65c4f0fe"
+					(reference "U5")
+					(unit 1)
+				)
+				(path "/37fdfe07-1a70-41c8-8af2-e03e19737580/569ba513-db4e-4a75-8161-f5cfa6b9cf84"
 					(reference "U5")
 					(unit 1)
 				)
@@ -5122,6 +5328,33 @@
 			)
 		)
 		(property "Resistance" ""
+			(at 232.41 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "M24C02-FMN"
+			(at 232.41 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ST"
+			(at 232.41 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOIC-8"
 			(at 232.41 38.1 0)
 			(effects
 				(font
@@ -5208,6 +5441,33 @@
 			)
 		)
 		(property "Description" "Inductor"
+			(at 60.96 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CBC3225T220KR"
+			(at 60.96 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Tayo Yuden"
+			(at 60.96 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1210"
 			(at 60.96 36.83 0)
 			(effects
 				(font
@@ -5362,6 +5622,33 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "AC0805FR-7W4K7L"
+			(at 217.17 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 217.17 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 217.17 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ad4f8a31-1894-4cca-ac28-e4fb7764b4c3")
 		)
@@ -5424,6 +5711,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 67.31 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AC0805FR-7W10RL"
+			(at 67.31 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 67.31 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
 			(at 67.31 55.88 0)
 			(effects
 				(font
@@ -5502,6 +5816,33 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "CL21B474KOFNNNE"
+			(at 80.01 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 80.01 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 80.01 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8d390f47-439e-402b-b1b9-f3fe31bc4b28")
 		)
@@ -5562,6 +5903,33 @@
 			)
 		)
 		(property "Description" "30V 2A Schottky Barrier Rectifier Diode, SMB"
+			(at 73.66 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "B230-13-F"
+			(at 73.66 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Diodes Inc."
+			(at 73.66 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMB"
 			(at 73.66 36.83 0)
 			(effects
 				(font
@@ -5648,6 +6016,33 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "CC0805KRX7R7BB104"
+			(at 259.08 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 259.08 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 259.08 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "42baf9d2-c362-4e06-8a0f-99bc89091173")
 		)
@@ -5670,7 +6065,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "fa07d63e-c7cb-4d6e-b285-c5224084d05d")
 		(property "Reference" "U12"
@@ -5717,6 +6112,33 @@
 			)
 		)
 		(property "Resistance" ""
+			(at 48.26 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 48.26 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 48.26 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
 			(at 48.26 130.81 0)
 			(effects
 				(font

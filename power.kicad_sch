@@ -3221,7 +3221,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 144.78) (xy 227.33 148.59)
+			(xy 168.91 170.18) (xy 168.91 173.99)
 		)
 		(stroke
 			(width 0)
@@ -3341,7 +3341,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 144.78) (xy 193.04 147.32)
+			(xy 134.62 170.18) (xy 134.62 172.72)
 		)
 		(stroke
 			(width 0)
@@ -3881,16 +3881,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 190.5) (xy 140.97 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60386c6e-1d02-4b10-9f9c-59b89da221a3")
-	)
-	(wire
-		(pts
 			(xy 104.14 34.29) (xy 104.14 29.21)
 		)
 		(stroke
@@ -3988,16 +3978,6 @@
 			(type default)
 		)
 		(uuid "6cea0af8-af5b-40e4-9f75-ce753ee7819c")
-	)
-	(wire
-		(pts
-			(xy 148.59 190.5) (xy 154.94 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6de7740a-06d2-44f7-ae9a-f9f682d6f698")
 	)
 	(wire
 		(pts
@@ -4231,7 +4211,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 144.78) (xy 215.9 148.59)
+			(xy 157.48 170.18) (xy 157.48 173.99)
 		)
 		(stroke
 			(width 0)
@@ -4681,7 +4661,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 144.78) (xy 204.47 147.32)
+			(xy 146.05 170.18) (xy 146.05 172.72)
 		)
 		(stroke
 			(width 0)
@@ -5131,7 +5111,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 144.78) (xy 182.88 147.32)
+			(xy 124.46 170.18) (xy 124.46 172.72)
 		)
 		(stroke
 			(width 0)
@@ -5314,8 +5294,20 @@
 		(uuid 36d1d977-9d57-43b4-92f9-0b190fe14a9f)
 	)
 	(rectangle
+		(start 119.38 152.4)
+		(end 175.26 195.58)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 87123a34-9053-41de-ba5c-f6396a75fe75)
+	)
+	(rectangle
 		(start 184.15 54.61)
-		(end 274.32 130.81)
+		(end 274.32 135.89)
 		(stroke
 			(width 0)
 			(type default)
@@ -5335,6 +5327,19 @@
 			(justify left)
 		)
 		(uuid "2431a6d9-01ca-49a3-b982-47aaec783f2c")
+	)
+	(text "BUG:\nABS max Vin for the MCP1727 is 6.5 V. \nI want to use a 7.4V battery. Need a\nbetter solution here. "
+		(exclude_from_sim no)
+		(at 222.758 18.034 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "250e4ef6-0d56-427e-a7bf-e1174d0229d4")
 	)
 	(text "AP62300: Vout => R1 = R2 * (Vout/Vfb - 1)\nR1 = R15; R2 = R16; Vfb = 0.8\nFor our purposes we want something like 5.5-5.7V out. \nSet R16 to 10k so R5 ~ 10k*(5.6 / 0.8 - 1) = 60k\nUsing 62k E12 gives 5.76V out."
 		(exclude_from_sim no)
@@ -5357,6 +5362,19 @@
 		)
 		(uuid "450f4f98-c2dc-4205-8443-4adda04008f1")
 	)
+	(text "BUG: These are wrong"
+		(exclude_from_sim no)
+		(at 120.396 100.584 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "45a1eee6-031e-484e-b907-6c386241d7f8")
+	)
 	(text "Max current is 1A. Rsense = 0.1\nso max power dissipation is 100mW\nthrough Rsense.\n@20mA Vdrop,Rsense = 2mV\n@1A   Vdrop,Rsense = 100mV\n\nGain = 10 for [20mV, 1V] output\n"
 		(exclude_from_sim no)
 		(at 185.928 109.22 0)
@@ -5367,6 +5385,32 @@
 			(justify left)
 		)
 		(uuid "552c60f5-94b5-4e1d-915b-3a67f20cccb9")
+	)
+	(text "BUG: Add overvoltge (6V) protection Zener here\n"
+		(exclude_from_sim no)
+		(at 172.212 16.764 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "5fa5591a-d66a-4564-a257-961805720443")
+	)
+	(text "BUG: Spec actual voltage limits here\n(The AP63200 can go as high as 32V)"
+		(exclude_from_sim no)
+		(at 22.606 53.848 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "7aee252f-2d0f-43f7-9d74-a600a2627888")
 	)
 	(text "Current Sense"
 		(exclude_from_sim no)
@@ -5381,17 +5425,6 @@
 		)
 		(uuid "8f2cdbc8-d6e2-46af-9e75-d7e6fe32d179")
 	)
-	(text "AGND and DGND are tied together \ninternally to the MCP320X. This \nconnection should be as close to \nthay chip as possible."
-		(exclude_from_sim no)
-		(at 123.698 177.8 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "90f1cc3b-5c42-4dfe-a76a-97f7a43f10cf")
-	)
 	(text "Reference Decoupling\n"
 		(exclude_from_sim no)
 		(at 16.002 155.194 0)
@@ -5405,9 +5438,22 @@
 		)
 		(uuid "9d8298cf-5b0c-4900-b73e-c61f70a04696")
 	)
-	(text "TODO: U11 is referenced to \nDIG_PRE_GND so its output will \nbe offset by the drop across \nR28 (Rsense). For example at\nI=20mA Rsense will have a drop of 2mV\nand U11 will output 20mV; however, \nthis is referenced to DIG_PRE_GND which is\n2mV lower than DIGITAL_GND and so will\nbe read as 18mV.\nLikewise with 1Amp, Rsense will drop 100mV,\nU11 will output 1V but referenced to \nDIG_PRE_GND which will be 100mV lower than \nDIGITAL_GND and so will be read as 900mV."
+	(text "BUG: Remove current shunt.\nMove this to the battery module."
 		(exclude_from_sim no)
-		(at 225.806 116.078 0)
+		(at 188.976 127.254 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "a675195c-4215-442b-a6f6-11c2f8335d16")
+	)
+	(text "TODO: U11 is referenced to \nDIG_PRE_GND so its output will \nbe offset by the drop across \nR28 (Rsense). For example at\nI=20mA Rsense will have a drop of 2mV\nand U11 will output 20mV; however, \nthis is referenced to DIG_PRE_GND which is\n2mV lower than DIGITAL_GND and so will\nbe read as 18mV.\nLikewise with 1Amp, Rsense will drop 100mV,\nU11 will output 1V but referenced to \nDIG_PRE_GND which will be 100mV lower than \nDIGITAL_GND and so will be read as 900mV.\nI might want to skip this circuit here and put\na dedicated fuel guage chip into the battery \nenclosure."
+		(exclude_from_sim no)
+		(at 225.298 118.364 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5416,6 +5462,19 @@
 			(justify left)
 		)
 		(uuid "a9719d5f-e4af-4224-9b79-b1363f657114")
+	)
+	(text "ERC overrides"
+		(exclude_from_sim no)
+		(at 120.142 154.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "a98b6625-9490-422e-93a0-25bb47fe405f")
 	)
 	(text "Need a 3.7V to 5V boost converter for battery\npower, and a 3.7V Li Ion battery charger. \nStill not sure on how much power we need for\ncloudy day and overnight operation but we can \nprobably size the battery later. \nActually, I think we'll add a separate battery\ncircuit as its own thing. It will be self-contained\nand all we need here are a couple of lines to \nprovide battery power and return and a current shunt\nfor battery monitoring. I think maybe I'll also include \nthe battery shunt and amplifier in the battery module. \nThis just means we need a +/- and sense pin for the battery\nmodule.\n"
 		(exclude_from_sim no)
@@ -5441,9 +5500,9 @@
 		)
 		(uuid "ec929f41-ee6e-42ba-846b-e5e0601096f7")
 	)
-	(text "TODO: Add a MOV "
+	(text "TODO: \n- Add a MOV \n- Add reverse voltage protection"
 		(exclude_from_sim no)
-		(at 33.782 21.082 0)
+		(at 30.226 19.05 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5475,7 +5534,7 @@
 	)
 	(hierarchical_label "INPUT_VBATT_+"
 		(shape input)
-		(at 204.47 147.32 270)
+		(at 146.05 172.72 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5486,7 +5545,7 @@
 	)
 	(hierarchical_label "DIGITAL_GND"
 		(shape output)
-		(at 215.9 148.59 270)
+		(at 157.48 173.99 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5561,17 +5620,6 @@
 		)
 		(uuid "40e73fe0-a275-4078-bf2b-c3832278e0f3")
 	)
-	(hierarchical_label "DIGITAL_GND"
-		(shape output)
-		(at 134.62 190.5 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "479efce6-ea97-4c43-8837-252c68d415d4")
-	)
 	(hierarchical_label "INPUT_COMMON"
 		(shape input)
 		(at 204.47 91.44 180)
@@ -5596,7 +5644,7 @@
 	)
 	(hierarchical_label "INPUT_COMMON"
 		(shape input)
-		(at 193.04 147.32 270)
+		(at 134.62 172.72 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5660,17 +5708,6 @@
 		)
 		(uuid "9ff37200-aab6-4c15-bca3-30aba78e4319")
 	)
-	(hierarchical_label "ANALOG_GND"
-		(shape output)
-		(at 154.94 190.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a064bfd5-58a8-4907-af49-3bfd45cdc499")
-	)
 	(hierarchical_label "INPUT_VBATT_+"
 		(shape input)
 		(at 215.9 66.04 180)
@@ -5695,7 +5732,7 @@
 	)
 	(hierarchical_label "ANALOG_GND"
 		(shape output)
-		(at 227.33 148.59 270)
+		(at 168.91 173.99 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5783,7 +5820,7 @@
 	)
 	(hierarchical_label "INPUT_12V+"
 		(shape input)
-		(at 182.88 147.32 270)
+		(at 124.46 172.72 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5891,6 +5928,33 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "LTST-C170GKT"
+			(at 129.54 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Lite-On"
+			(at 129.54 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 129.54 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3e18a0b3-2dbd-48f8-8e32-00a29ef62931")
 		)
@@ -5961,6 +6025,33 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "RCC0805470RFKEA"
+			(at 255.27 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay-Dale"
+			(at 255.27 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 255.27 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9fe02bc2-930f-4c29-9252-1467a11c6820")
 		)
@@ -6023,6 +6114,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 128.27 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RK73H2ATTD6202F"
+			(at 128.27 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KOA Speer Electronics, Inc."
+			(at 128.27 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
 			(at 128.27 31.75 0)
 			(effects
 				(font
@@ -6107,6 +6225,33 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "TLV4387PWR "
+			(at 90.17 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TI"
+			(at 90.17 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "TSSOP-14"
+			(at 90.17 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "73dd10f6-083d-4342-a2c7-47d816fa642a")
 		)
@@ -6177,7 +6322,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "2.2k"
 			(at 62.23 34.2899 0)
 			(effects
 				(font
@@ -6205,6 +6350,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 59.69 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AC0805FR-7W2K2L"
+			(at 59.69 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 59.69 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
 			(at 59.69 33.02 0)
 			(effects
 				(font
@@ -6273,6 +6445,33 @@
 			)
 		)
 		(property "Description" "2A, 500kHz Buck DC/DC Converter, adjustable output voltage, TSOT-23-6"
+			(at 90.17 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AP63200WU-7"
+			(at 90.17 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 90.17 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "TSOT-26"
 			(at 90.17 29.21 0)
 			(effects
 				(font
@@ -6363,6 +6562,33 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "GRM21BZ71A226ME15L"
+			(at 149.86 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 149.86 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 149.86 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f843b6ae-550f-497f-b093-9c8a33208e88")
 		)
@@ -6423,6 +6649,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 213.36 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AC0805FR-7W10KL"
+			(at 213.36 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 213.36 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
 			(at 213.36 83.82 0)
 			(effects
 				(font
@@ -6509,6 +6762,33 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "CC0805KRX7R7BB104"
+			(at 92.71 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 92.71 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 92.71 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b1173e45-2925-4624-9793-dbf023643841")
 		)
@@ -6569,6 +6849,33 @@
 			)
 		)
 		(property "Description" "Inductor"
+			(at 115.57 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "DFE322512F-3R3M=P2"
+			(at 115.57 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 115.57 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1210"
 			(at 115.57 26.67 0)
 			(effects
 				(font
@@ -6655,6 +6962,33 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "CC0805KRX7R7BB104"
+			(at 48.26 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 48.26 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 48.26 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "32eb9e78-e782-43a4-981d-e56cf6f9ab30")
 		)
@@ -6725,6 +7059,33 @@
 			)
 		)
 		(property "Resistance" ""
+			(at 85.09 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0805KRX7R7BB104"
+			(at 85.09 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 85.09 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
 			(at 85.09 181.61 0)
 			(effects
 				(font
@@ -6811,6 +7172,33 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "CL21B474KOFNNNE"
+			(at 86.36 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 86.36 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 86.36 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cb3814b5-9585-4a9a-b38b-ab137214c74f")
 		)
@@ -6882,6 +7270,33 @@
 			)
 		)
 		(property "Resistance" ""
+			(at 33.02 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TLV4387PWR "
+			(at 33.02 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TI"
+			(at 33.02 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "TSSOP-14"
 			(at 33.02 96.52 0)
 			(effects
 				(font
@@ -6994,6 +7409,33 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "AC0805FR-7W100KL"
+			(at 229.87 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 229.87 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 229.87 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "afd10456-1f96-436c-bacb-ea9ef4729a38")
 		)
@@ -7072,6 +7514,33 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "CC0805KRX7R7BB104"
+			(at 52.07 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 52.07 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 52.07 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f7d18414-b141-4096-882c-2a6ad1d2d3ab")
 		)
@@ -7089,7 +7558,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 227.33 144.78 0)
+		(at 168.91 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7098,7 +7567,7 @@
 		(fields_autoplaced yes)
 		(uuid "4146276a-e6ed-4130-a70e-6b0cb562134d")
 		(property "Reference" "#FLG4"
-			(at 227.33 142.875 0)
+			(at 168.91 168.275 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7107,7 +7576,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 227.33 139.7 0)
+			(at 168.91 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7115,7 +7584,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 227.33 144.78 0)
+			(at 168.91 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7124,7 +7593,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 227.33 144.78 0)
+			(at 168.91 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7133,7 +7602,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 227.33 144.78 0)
+			(at 168.91 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7216,6 +7685,33 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "CL21B105KOFNNNG"
+			(at 77.47 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 77.47 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 77.47 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "609e7044-ae93-4ac2-84d6-7af4c7222899")
 		)
@@ -7276,6 +7772,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 246.38 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AC0805FR-7W1KL"
+			(at 246.38 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 246.38 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
 			(at 246.38 81.28 0)
 			(effects
 				(font
@@ -7354,6 +7877,33 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "CC0805KKX7R7BB824"
+			(at 254 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 254 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 254 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4b7a3d99-893c-4c94-bcea-5542ac491a26")
 		)
@@ -7416,6 +7966,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 184.15 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL21B106KPQNNNE"
+			(at 184.15 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 184.15 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
 			(at 184.15 36.83 0)
 			(effects
 				(font
@@ -7494,6 +8071,33 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "PTVS22VZ1USK"
+			(at 43.18 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Nexperia"
+			(at 43.18 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "DSN1608-2"
+			(at 43.18 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ddd4c3f1-498d-4fc9-98a4-7906e13b6f01")
 		)
@@ -7562,6 +8166,33 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "B230-13-F"
+			(at 161.29 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Diodes Inc."
+			(at 161.29 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMB"
+			(at 161.29 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9dfc4cf5-1716-4def-ad68-bf7dab057680")
 		)
@@ -7579,7 +8210,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 182.88 144.78 0)
+		(at 124.46 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7588,7 +8219,7 @@
 		(fields_autoplaced yes)
 		(uuid "58030b3d-18a1-43e9-9896-a6cca5e00855")
 		(property "Reference" "#FLG1"
-			(at 182.88 142.875 0)
+			(at 124.46 168.275 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7597,7 +8228,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 182.88 139.7 0)
+			(at 124.46 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7605,7 +8236,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 144.78 0)
+			(at 124.46 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7614,7 +8245,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 182.88 144.78 0)
+			(at 124.46 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7623,7 +8254,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 182.88 144.78 0)
+			(at 124.46 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7690,6 +8321,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 142.24 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM21BZ71A226ME15L"
+			(at 142.24 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 142.24 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
 			(at 142.24 36.83 0)
 			(effects
 				(font
@@ -7768,6 +8426,33 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "CL21B106KPQNNNE"
+			(at 237.49 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 237.49 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 237.49 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "aef3070c-53d8-4020-b2de-01eb1412816d")
 		)
@@ -7838,6 +8523,33 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "LTST-C170GKT"
+			(at 255.27 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Lite-On"
+			(at 255.27 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 255.27 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bb4eeb03-a81f-4188-ae0d-17e8d628939b")
 		)
@@ -7898,6 +8610,33 @@
 			)
 		)
 		(property "Description" "30V 2A Schottky Barrier Rectifier Diode, SMB"
+			(at 161.29 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "B230-13-F"
+			(at 161.29 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Diodes Inc."
+			(at 161.29 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMB"
 			(at 161.29 29.21 0)
 			(effects
 				(font
@@ -7984,6 +8723,33 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "CL21B105KOFNNNG"
+			(at 99.06 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 99.06 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 99.06 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "321dc5d4-e79c-4744-97e7-cd91a93806c6")
 		)
@@ -8061,6 +8827,33 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "TLV4387PWR "
+			(at 130.81 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TI"
+			(at 130.81 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "TSSOP-14"
+			(at 130.81 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "73dd10f6-083d-4342-a2c7-47d816fa642c")
 		)
@@ -8130,7 +8923,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1u"
 			(at 111.76 32.766 0)
 			(effects
 				(font
@@ -8158,6 +8951,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 109.22 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0805KRX7R7BB104"
+			(at 109.22 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 109.22 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
 			(at 109.22 30.48 0)
 			(effects
 				(font
@@ -8236,6 +9056,33 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "AC0805FR-7W10KL"
+			(at 128.27 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 128.27 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 128.27 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "17bb737f-579d-478f-be4d-84fe3115acca")
 		)
@@ -8305,6 +9152,33 @@
 			)
 		)
 		(property "Resistance" ""
+			(at 43.18 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TPS22929DDBVR"
+			(at 43.18 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TI"
+			(at 43.18 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOT-23-6"
 			(at 43.18 125.73 0)
 			(effects
 				(font
@@ -8403,6 +9277,33 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "CL21B105KOFNNNG"
+			(at 44.45 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 44.45 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 44.45 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "35e50f8c-193b-48dc-97bf-63cabd47ced2")
 		)
@@ -8465,6 +9366,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 129.54 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RCC0805470RFKEA"
+			(at 129.54 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay-Dale"
+			(at 129.54 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
 			(at 129.54 125.73 0)
 			(effects
 				(font
@@ -8554,6 +9482,33 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "REF3025AIDBZR "
+			(at 99.06 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TI"
+			(at 99.06 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOT-23"
+			(at 99.06 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cf17f787-3548-4ed9-b0cb-67e32e6a008a")
 		)
@@ -8633,6 +9588,33 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "TLV4387PWR "
+			(at 130.81 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TI"
+			(at 130.81 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "TSSOP-14"
+			(at 130.81 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "73dd10f6-083d-4342-a2c7-47d816fa642d")
 		)
@@ -8680,83 +9662,6 @@
 				(path "/37fdfe07-1a70-41c8-8af2-e03e19737580/1fb5cba5-fe5a-4aba-b82b-13cd9370505b"
 					(reference "U13")
 					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 144.78 190.5 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "abb6adc7-2842-49fa-98ff-c6aea76ae578")
-		(property "Reference" "R4"
-			(at 144.78 184.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0 Ohm"
-			(at 144.78 186.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 144.78 192.278 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 144.78 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 144.78 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Resistance" ""
-			(at 144.78 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "dbbb3b4b-cdad-431d-a5e2-9f1a201ab72a")
-		)
-		(pin "1"
-			(uuid "145217fb-9734-4c73-a994-a55e43e630d2")
-		)
-		(instances
-			(project "digital_waters"
-				(path "/37fdfe07-1a70-41c8-8af2-e03e19737580/1fb5cba5-fe5a-4aba-b82b-13cd9370505b"
-					(reference "R4")
-					(unit 1)
 				)
 			)
 		)
@@ -8816,6 +9721,33 @@
 			)
 		)
 		(property "Resistance" ""
+			(at 66.04 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL21B105KOFNNNG"
+			(at 66.04 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 66.04 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
 			(at 66.04 181.61 0)
 			(effects
 				(font
@@ -8884,6 +9816,33 @@
 			)
 		)
 		(property "Description" "Metal film current shunt 0.5W"
+			(at 194.31 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "PE1206FRF7W0R1L"
+			(at 194.31 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 194.31 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1206"
 			(at 194.31 48.26 0)
 			(effects
 				(font
@@ -8962,6 +9921,33 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "LTST-C170GKT"
+			(at 59.69 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Lite-On"
+			(at 59.69 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 59.69 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "abe3ffb5-91e4-4f1b-b1c7-c3f412b77d30")
 		)
@@ -8996,7 +9982,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10u"
 			(at 76.2 38.0999 0)
 			(effects
 				(font
@@ -9024,6 +10010,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 72.39 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL21B106KPQNNNE"
+			(at 72.39 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 72.39 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
 			(at 72.39 36.83 0)
 			(effects
 				(font
@@ -9092,6 +10105,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 227.33 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AC0805FR-7W100KL"
+			(at 227.33 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 227.33 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
 			(at 227.33 64.77 0)
 			(effects
 				(font
@@ -9178,6 +10218,33 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "CL21B105KOFNNNG"
+			(at 40.64 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 40.64 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 40.64 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f78df4f3-eb1b-484b-bc27-64f5bcb00897")
 		)
@@ -9256,6 +10323,33 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "CL21B474KOFNNNE"
+			(at 55.88 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 55.88 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 55.88 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a234c391-14bc-4f9c-a147-1a3838789f1c")
 		)
@@ -9325,6 +10419,33 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C0805C101M4RACTU"
+			(at 120.65 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 120.65 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 120.65 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d16e9600-6ec9-4cad-85be-7d4d0ed0e56f")
 		)
@@ -9342,7 +10463,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 215.9 144.78 0)
+		(at 157.48 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9351,7 +10472,7 @@
 		(fields_autoplaced yes)
 		(uuid "d4261a63-e6d7-437c-97d5-c088b535fe74")
 		(property "Reference" "#FLG3"
-			(at 215.9 142.875 0)
+			(at 157.48 168.275 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9360,7 +10481,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 215.9 139.7 0)
+			(at 157.48 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9368,7 +10489,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 215.9 144.78 0)
+			(at 157.48 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9377,7 +10498,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 215.9 144.78 0)
+			(at 157.48 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9386,7 +10507,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 215.9 144.78 0)
+			(at 157.48 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9468,6 +10589,33 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "TLV4387PWR "
+			(at 91.44 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TI"
+			(at 91.44 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "TSSOP-14"
+			(at 91.44 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "73dd10f6-083d-4342-a2c7-47d816fa642e")
 		)
@@ -9521,7 +10669,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 204.47 144.78 0)
+		(at 146.05 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9530,7 +10678,7 @@
 		(fields_autoplaced yes)
 		(uuid "e3c93f51-1cf1-46db-a7ea-474bf2844aa5")
 		(property "Reference" "#FLG2"
-			(at 204.47 142.875 0)
+			(at 146.05 168.275 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9539,7 +10687,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 204.47 139.7 0)
+			(at 146.05 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9547,7 +10695,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 204.47 144.78 0)
+			(at 146.05 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9556,7 +10704,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 204.47 144.78 0)
+			(at 146.05 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9565,7 +10713,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 204.47 144.78 0)
+			(at 146.05 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9640,6 +10788,33 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "CL21B105KOFNNNG"
+			(at 177.8 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 177.8 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 177.8 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cb4b803e-7c5d-4921-8bc0-9c596e6e982b")
 		)
@@ -9657,7 +10832,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 193.04 144.78 0)
+		(at 134.62 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9666,7 +10841,7 @@
 		(fields_autoplaced yes)
 		(uuid "e8215e5c-43d7-445e-8f24-4a6850720af2")
 		(property "Reference" "#FLG5"
-			(at 193.04 142.875 0)
+			(at 134.62 168.275 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9675,7 +10850,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 193.04 139.7 0)
+			(at 134.62 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9683,7 +10858,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 193.04 144.78 0)
+			(at 134.62 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9692,7 +10867,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 193.04 144.78 0)
+			(at 134.62 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9701,7 +10876,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 193.04 144.78 0)
+			(at 134.62 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9766,6 +10941,33 @@
 			)
 		)
 		(property "Description" "Single 36V, Precision, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, SOIC-8"
+			(at 231.14 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "OPA197ID"
+			(at 231.14 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TI"
+			(at 231.14 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOIC-8"
 			(at 231.14 81.28 0)
 			(effects
 				(font
@@ -9870,6 +11072,33 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "CC0805KRX7R7BB104"
+			(at 59.69 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 59.69 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 59.69 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "629f7fc1-577c-4949-a62e-3b4e321c8844")
 		)
@@ -9930,6 +11159,33 @@
 			)
 		)
 		(property "Description" "1.5A, Low Voltage, Low Quiescent Current LDO Regulator, 2.3 - 6V Input, Fixed 5.0V Output, 330mV Dropout, SOIC-8"
+			(at 212.09 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MCP1727-5002E/SN"
+			(at 212.09 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Microchip"
+			(at 212.09 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOIC-8"
 			(at 212.09 29.21 0)
 			(effects
 				(font
@@ -10034,6 +11290,33 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "CL21B105KOFNNNG"
+			(at 27.94 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 27.94 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 27.94 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dbd2c107-673b-470d-a985-509fb68d49e5")
 		)
@@ -10094,6 +11377,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 213.36 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AC0805FR-7W10KL"
+			(at 213.36 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 213.36 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
 			(at 213.36 78.74 0)
 			(effects
 				(font
@@ -10175,6 +11485,33 @@
 			)
 		)
 		(property "Resistance" ""
+			(at 68.58 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "REF3040AIDBZR"
+			(at 68.58 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TI"
+			(at 68.58 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOT-23"
 			(at 68.58 129.54 0)
 			(effects
 				(font

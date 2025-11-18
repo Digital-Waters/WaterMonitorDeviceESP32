@@ -3885,7 +3885,7 @@
 		)
 		(uuid "89d775f1-b192-4a72-b0a5-91f8e836a1a5")
 	)
-	(text "Note that the Atlas Scientific DO board is simply a \n5-3.3V regulator coupled with a non-inverting amp with \n10x gain on it. 100% saturation is 42mV out of the \nA.S. board so I'm assuming the probe outputs a max of \n4.2mV. We will simply use a 960X gain stage here giving\nus very nearly full scale at 100% saturation.\n\nGAIN = 960x\n"
+	(text "Note that the Atlas Scientific DO board is simply a \n5-3.3V regulator coupled with a non-inverting amp with \n10x gain on it. 100% saturation is 42mV out of the \nA.S. board so I'm assuming the probe outputs a max of \n4.2mV. We will simply use a 910X gain stage here giving\nus very nearly full scale at 100% saturation.\n\nGAIN = 91k\n"
 		(exclude_from_sim no)
 		(at 210.058 70.612 0)
 		(effects
@@ -4488,6 +4488,33 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "CL21B105KOFNNNG"
+			(at 218.44 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 218.44 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 218.44 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e8557b95-ab0a-4c60-a0c0-1fa1d6ad5743")
 		)
@@ -4559,6 +4586,33 @@
 			)
 		)
 		(property "Resistance" ""
+			(at 44.45 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0805KKX7R7BB824"
+			(at 44.45 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 44.45 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
 			(at 44.45 167.64 0)
 			(effects
 				(font
@@ -4645,6 +4699,33 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "CC0805KRX7R7BB104"
+			(at 224.79 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 224.79 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 224.79 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fce5e5c7-ba71-4db2-a34f-2c7df21038bd")
 		)
@@ -4722,6 +4803,33 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "AC0805FR-7W10KL"
+			(at 132.08 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 132.08 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 132.08 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a41fd090-4076-4cbd-9b63-fa40a4173322")
 		)
@@ -4790,6 +4898,33 @@
 			)
 		)
 		(property "Resistance" ""
+			(at 36.83 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RCC0805470RFKEA"
+			(at 36.83 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay-Dale"
+			(at 36.83 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
 			(at 36.83 33.02 0)
 			(effects
 				(font
@@ -4877,6 +5012,33 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "AC0805FR-7W100RL"
+			(at 232.41 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 232.41 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 232.41 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f1288519-caad-4a47-9ee1-5f37efc43971")
 		)
@@ -4946,6 +5108,33 @@
 			)
 		)
 		(property "Resistance" ""
+			(at 71.12 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AC0805FR-7W1KL"
+			(at 71.12 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 71.12 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
 			(at 71.12 72.39 0)
 			(effects
 				(font
@@ -5030,6 +5219,33 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "AC0805FR-7W10KL"
+			(at 132.08 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 132.08 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 132.08 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1f4c0018-56e0-4dc1-a078-290ec9366dde")
 		)
@@ -5098,6 +5314,33 @@
 			)
 		)
 		(property "Resistance" ""
+			(at 78.74 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AC0805FR-7W1KL"
+			(at 78.74 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 78.74 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
 			(at 78.74 27.94 0)
 			(effects
 				(font
@@ -5182,6 +5425,33 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "AC0805FR-7W100KL"
+			(at 33.02 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 33.02 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 33.02 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "cc90370b-55b4-4aa8-aa3a-3b59aae65953")
 		)
@@ -5250,6 +5520,33 @@
 			)
 		)
 		(property "Resistance" ""
+			(at 125.73 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AC0805FR-7W1KL"
+			(at 125.73 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 125.73 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
 			(at 125.73 90.17 0)
 			(effects
 				(font
@@ -5335,6 +5632,33 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "AC0805FR-7W1KL"
+			(at 162.56 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 162.56 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 162.56 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7ce914a9-8185-4912-a3b5-12d3082b02ad")
 		)
@@ -5411,6 +5735,33 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "AC0805FR-7W1KL"
+			(at 36.83 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 36.83 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 36.83 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "de6a0423-09dc-4081-9292-3ddb62cbb11b")
 		)
@@ -5479,6 +5830,33 @@
 			)
 		)
 		(property "Resistance" ""
+			(at 146.05 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0805FR-7W27KL"
+			(at 146.05 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 146.05 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
 			(at 146.05 111.76 0)
 			(effects
 				(font
@@ -5565,6 +5943,33 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "CL21B105KOFNNNG"
+			(at 147.32 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 147.32 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 147.32 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ad330e0f-cefe-4539-bc53-079c1a2cdaa0")
 		)
@@ -5626,6 +6031,33 @@
 		)
 		(property "Description" "High Precision, Zero-Drift, Low-Input-Bias-Current Op Amps"
 			(at 240.03 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TLV4387PWR"
+			(at 241.3 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TI"
+			(at 241.3 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "TSSOP-14"
+			(at 241.3 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5745,6 +6177,33 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "AC0805FR-7W100KL"
+			(at 34.29 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 34.29 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 34.29 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "98d5e2e8-90c3-4c9f-ad5a-cb25e4e7db64")
 		)
@@ -5823,6 +6282,33 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "CC0805KRX7R7BB104"
+			(at 252.73 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 252.73 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 252.73 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9148ba64-0874-44c5-93f2-8292f0d71ac2")
 		)
@@ -5883,6 +6369,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 143.51 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TLV2387DR"
+			(at 143.51 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TI"
+			(at 143.51 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOIC-8"
 			(at 143.51 100.33 0)
 			(effects
 				(font
@@ -5987,6 +6500,33 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "CC0805KKX7R7BB824"
+			(at 170.18 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 170.18 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 170.18 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "36fb3dd0-f66d-42f5-ad8d-c298cf5b7edf")
 		)
@@ -6057,6 +6597,33 @@
 			)
 		)
 		(property "Resistance" ""
+			(at 77.47 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0805KKX7R7BB824"
+			(at 77.47 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 77.47 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
 			(at 77.47 78.74 0)
 			(effects
 				(font
@@ -6143,6 +6710,33 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "CC0805KRX7R7BB104"
+			(at 39.37 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 39.37 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 39.37 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d08bd69a-8568-4a29-b820-08df75f074c3")
 		)
@@ -6211,6 +6805,33 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "TLV4387PWR"
+			(at 53.34 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TI"
+			(at 53.34 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "TSSOP-14"
+			(at 53.34 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "14"
 			(uuid "64a60995-8857-4dc4-bb4a-fd3957afe1e3")
 		)
@@ -6270,7 +6891,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "9f154c2a-fcf9-4f26-8a11-3b759fba735c")
 		(property "Reference" "J18"
 			(at 111.125 168.91 0)
@@ -6316,6 +6937,33 @@
 			)
 		)
 		(property "Resistance" ""
+			(at 110.49 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 110.49 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 110.49 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
 			(at 110.49 158.75 0)
 			(effects
 				(font
@@ -6403,29 +7051,56 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "TLV2387DR"
+			(at 232.41 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TI"
+			(at 232.41 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOIC-8"
+			(at 232.41 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
-			(uuid "d756086a-8a46-49f2-adfb-b13c7516eb4b")
+			(uuid "d756086a-8a46-49f2-adfb-b13c7516eb4c")
 		)
 		(pin "5"
-			(uuid "95425697-d1f1-4648-b2f3-24bd1faf38c9")
+			(uuid "95425697-d1f1-4648-b2f3-24bd1faf38ca")
 		)
 		(pin "1"
-			(uuid "c8488d8b-a5e4-4256-ad53-36fcdd50aaee")
+			(uuid "c8488d8b-a5e4-4256-ad53-36fcdd50aaef")
 		)
 		(pin "3"
-			(uuid "16424a65-2d17-4afa-9711-d086e3c2098b")
+			(uuid "16424a65-2d17-4afa-9711-d086e3c2098c")
 		)
 		(pin "7"
-			(uuid "741461fe-1af8-4ce5-be0f-50280937eed9")
+			(uuid "741461fe-1af8-4ce5-be0f-50280937eeda")
 		)
 		(pin "6"
-			(uuid "ba096806-61ee-493e-9e9b-4208eef71495")
+			(uuid "ba096806-61ee-493e-9e9b-4208eef71496")
 		)
 		(pin "2"
-			(uuid "6578bf95-1da3-4a40-bcdd-25ed7156912a")
+			(uuid "6578bf95-1da3-4a40-bcdd-25ed7156912b")
 		)
 		(pin "4"
-			(uuid "6bc405c9-0618-468f-8be2-bfff235652d4")
+			(uuid "6bc405c9-0618-468f-8be2-bfff235652d5")
 		)
 		(instances
 			(project ""
@@ -6492,6 +7167,33 @@
 			)
 		)
 		(property "Resistance" ""
+			(at 38.1 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0805KRX7R7BB104"
+			(at 38.1 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 38.1 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
 			(at 38.1 125.73 0)
 			(effects
 				(font
@@ -6579,6 +7281,33 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "CC0805KKX7R7BB824"
+			(at 170.18 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 170.18 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 170.18 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "368cf8be-ce46-4067-a633-48ae8acb17aa")
 		)
@@ -6657,6 +7386,33 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "CL21B105KOFNNNG"
+			(at 259.08 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 259.08 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 259.08 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c96cad22-31e2-41bc-adfa-6079f95bed74")
 		)
@@ -6727,6 +7483,33 @@
 			)
 		)
 		(property "Resistance" ""
+			(at 140.97 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0805KRX7R7BB104"
+			(at 140.97 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 140.97 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
 			(at 140.97 158.75 0)
 			(effects
 				(font
@@ -6879,6 +7662,33 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "CC0805KKX7R7BB824"
+			(at 78.74 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 78.74 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 78.74 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b74e6a9e-aea8-4ac4-bde8-288fdbe834b4")
 		)
@@ -6950,6 +7760,33 @@
 			)
 		)
 		(property "Resistance" ""
+			(at 43.18 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AC0805FR-7W4K7L"
+			(at 43.18 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 43.18 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
 			(at 43.18 33.02 0)
 			(effects
 				(font
@@ -7034,6 +7871,33 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "AC0805FR-7W1KL"
+			(at 125.73 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 125.73 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 125.73 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "abb6ba6b-6e16-432b-9671-87a992189d1c")
 		)
@@ -7094,6 +7958,33 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 19.05 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 19.05 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 19.05 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
 			(at 19.05 166.37 0)
 			(effects
 				(font
@@ -7170,29 +8061,56 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "TLV2387DR"
+			(at 146.05 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TI"
+			(at 146.05 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOIC-8"
+			(at 146.05 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
-			(uuid "d756086a-8a46-49f2-adfb-b13c7516eb4b")
+			(uuid "d756086a-8a46-49f2-adfb-b13c7516eb4d")
 		)
 		(pin "5"
-			(uuid "95425697-d1f1-4648-b2f3-24bd1faf38c9")
+			(uuid "95425697-d1f1-4648-b2f3-24bd1faf38cb")
 		)
 		(pin "1"
-			(uuid "c8488d8b-a5e4-4256-ad53-36fcdd50aaee")
+			(uuid "c8488d8b-a5e4-4256-ad53-36fcdd50aaf0")
 		)
 		(pin "3"
-			(uuid "16424a65-2d17-4afa-9711-d086e3c2098b")
+			(uuid "16424a65-2d17-4afa-9711-d086e3c2098d")
 		)
 		(pin "7"
-			(uuid "741461fe-1af8-4ce5-be0f-50280937eed9")
+			(uuid "741461fe-1af8-4ce5-be0f-50280937eedb")
 		)
 		(pin "6"
-			(uuid "ba096806-61ee-493e-9e9b-4208eef71495")
+			(uuid "ba096806-61ee-493e-9e9b-4208eef71497")
 		)
 		(pin "2"
-			(uuid "6578bf95-1da3-4a40-bcdd-25ed7156912a")
+			(uuid "6578bf95-1da3-4a40-bcdd-25ed7156912c")
 		)
 		(pin "4"
-			(uuid "6bc405c9-0618-468f-8be2-bfff235652d4")
+			(uuid "6bc405c9-0618-468f-8be2-bfff235652d6")
 		)
 		(instances
 			(project ""
@@ -7267,6 +8185,33 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "CC0805KKX7R7BB824"
+			(at 266.7 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 266.7 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 266.7 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2e48132e-5970-427f-badb-e273c7a3920b")
 		)
@@ -7328,6 +8273,33 @@
 		)
 		(property "Description" "High Precision, Zero-Drift, Low-Input-Bias-Current Op Amps"
 			(at 59.69 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TLV4387PWR"
+			(at 60.96 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TI"
+			(at 60.96 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "TSSOP-14"
+			(at 60.96 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7448,6 +8420,33 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "AC0805FR-7W1KL"
+			(at 71.12 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 71.12 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 71.12 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "30f7df30-342d-48d1-97a1-502c5a4be18d")
 		)
@@ -7511,6 +8510,33 @@
 		)
 		(property "Description" "High Precision, Zero-Drift, Low-Input-Bias-Current Op Amps"
 			(at 262.89 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TLV4387PWR"
+			(at 264.16 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TI"
+			(at 264.16 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "TSSOP-14"
+			(at 264.16 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7615,6 +8641,33 @@
 		)
 		(property "Description" "High Precision, Zero-Drift, Low-Input-Bias-Current Op Amps"
 			(at 53.34 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TLV4387PWR"
+			(at 54.61 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TI"
+			(at 54.61 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "TSSOP-14"
+			(at 54.61 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7735,6 +8788,33 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "AC0805FR-7W1KL"
+			(at 163.83 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 163.83 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 163.83 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9e8909c4-f7ad-4cc4-a4b9-7a0f24afe7cd")
 		)
@@ -7804,6 +8884,33 @@
 			)
 		)
 		(property "Resistance" ""
+			(at 260.35 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AC0805FR-7W1KL"
+			(at 260.35 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 260.35 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
 			(at 260.35 34.29 0)
 			(effects
 				(font
@@ -7891,6 +8998,33 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "AC0805FR-7W100KL"
+			(at 223.52 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 223.52 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 223.52 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5343e439-7cf8-4795-bb73-c8f89fbca273")
 		)
@@ -7953,6 +9087,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 128.27 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AC0805FR-7W10KL"
+			(at 128.27 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 128.27 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
 			(at 128.27 26.67 0)
 			(effects
 				(font
@@ -8040,6 +9201,33 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "CC0805KKX7R7BB824"
+			(at 85.09 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 85.09 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 85.09 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fe202cea-db05-4b38-b9f5-bdb281a4239b")
 		)
@@ -8109,6 +9297,33 @@
 			)
 		)
 		(property "Resistance" ""
+			(at 217.17 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AC0805FR-7W100RL"
+			(at 217.17 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 217.17 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
 			(at 217.17 31.75 0)
 			(effects
 				(font
@@ -8193,6 +9408,33 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "RC0805FR-7W27KL"
+			(at 146.05 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 146.05 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 146.05 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8d48045a-7d68-4bf5-bc4f-62251590b8c9")
 		)
@@ -8225,7 +9467,7 @@
 				)
 			)
 		)
-		(property "Value" "96k / 1%"
+		(property "Value" "91k / 1%"
 			(at 245.11 39.37 90)
 			(effects
 				(font
@@ -8261,6 +9503,33 @@
 			)
 		)
 		(property "Resistance" ""
+			(at 245.11 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AC0805FR-7W91KL"
+			(at 245.11 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 245.11 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
 			(at 245.11 41.91 0)
 			(effects
 				(font
@@ -8330,6 +9599,33 @@
 			)
 		)
 		(property "Description" "5V, 1200W TVS unidirectional diode, DSN1608-2"
+			(at 128.27 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "PTVS5V0Z1USK"
+			(at 128.27 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Nexperia"
+			(at 128.27 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "DSN1608-2"
 			(at 128.27 41.91 0)
 			(effects
 				(font

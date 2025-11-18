@@ -2933,6 +2933,16 @@
 		)
 		(uuid "1e92ffcd-4815-43d9-9a07-9bfaf1c3ae01")
 	)
+	(wire
+		(pts
+			(xy 243.84 157.48) (xy 250.19 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f7752ae-755a-45a7-a46b-b4fc7f13c0d1")
+	)
 	(bus
 		(pts
 			(xy 248.92 100.33) (xy 256.54 100.33)
@@ -3142,6 +3152,16 @@
 			(type default)
 		)
 		(uuid "3cc1930e-8d24-49b4-be9d-dc5d5212a67e")
+	)
+	(wire
+		(pts
+			(xy 257.81 157.48) (xy 264.16 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d6100c8-e2cd-4402-a282-2a3371d450f8")
 	)
 	(wire
 		(pts
@@ -4253,6 +4273,30 @@
 		)
 		(uuid "ff2689c9-784f-4dfd-bd78-bca4dcd47415")
 	)
+	(rectangle
+		(start 120.65 175.26)
+		(end 160.02 195.58)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7c9befe4-ac49-4683-ae7a-201bebd889a8)
+	)
+	(rectangle
+		(start 226.06 137.16)
+		(end 281.94 162.56)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ca03927a-3e0d-4626-8745-cceca545c926)
+	)
 	(text "BUGS:\nBig one, I2C is mixed with 5V devices (EZO-EC) and 3.3V devices and\nis pulled up to 3.3V."
 		(exclude_from_sim no)
 		(at 298.958 74.93 0)
@@ -4275,9 +4319,9 @@
 		)
 		(uuid "23046f1c-3245-48ca-ac24-cc2ca55d8086")
 	)
-	(text "Using Cat5 cable, the characteristic\nimpedance is 100 Ohm. Adding a DC \ntermination resistor of 100 Ohm to \nboth ends of the cable should suffice \nfor termination. This adds a DC load \nto the drivers though and you should \nconsider designing an AC termination \ninstead (Rt in series with a cap -- this\nmesses up the rise and fall times though \nso you have to do it carefully).\n"
+	(text "RS-485 transceiver:\nUsing Cat5 cable, the characteristic\nimpedance is 100 Ohm. Adding a DC \ntermination resistor of 100 Ohm to \nboth ends of the cable should suffice \nfor termination. This adds a DC load \nto the drivers though and you should \nconsider designing an AC termination \ninstead (Rt in series with a cap -- this\nmesses up the rise and fall times though \nso you have to do it carefully).\n"
 		(exclude_from_sim no)
-		(at 24.384 183.134 0)
+		(at 165.354 29.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4285,6 +4329,30 @@
 			(justify left)
 		)
 		(uuid "369afef8-ed99-4d4a-99fe-465676f4d908")
+	)
+	(text "ERC Overrides"
+		(exclude_from_sim no)
+		(at 122.428 178.562 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "6c4d76a0-de25-48f9-8063-710e0cf4bd98")
+	)
+	(text "AGND and DGND are tied together \ninternally to the MCP320X. This \nconnection should be as close to \nthay chip as possible."
+		(exclude_from_sim no)
+		(at 232.918 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7b6f46ef-ea1d-464c-8e55-8106fade2864")
 	)
 	(text "TODO\n- Add reverse voltage protection to Battery inputs\n- Move ADC CALIBRATE to channel 0 and add SPDT switch to all boards\n\nDone:\n- Add a fuse or PTC and MOV to the battery input to help mediate shorts and spikes\n- We need to add some input line protection, maybe TVS diodes on all \"external\" lines.\n"
 		(exclude_from_sim no)
@@ -4520,6 +4588,17 @@
 		)
 		(uuid "1d6a3912-42c2-4beb-be52-43c1a0011764")
 	)
+	(hierarchical_label "ANALOG_GND"
+		(shape output)
+		(at 264.16 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8d1d9167-4841-4d5f-af17-75fe4ec66021")
+	)
 	(hierarchical_label "INPUT_OUTPUT_RS485_B"
 		(shape input)
 		(at 175.26 68.58 180)
@@ -4530,6 +4609,17 @@
 			(justify right)
 		)
 		(uuid "9de3af72-bb00-424d-9bb4-63c1671d6c42")
+	)
+	(hierarchical_label "DIGITAL_GND"
+		(shape output)
+		(at 243.84 157.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a34eba30-77e3-4d4f-be9f-ca725e445a4d")
 	)
 	(hierarchical_label "INPUT_OUTPUT_RS485_A"
 		(shape input)
@@ -4615,7 +4705,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "078575bd-8454-4862-909f-f36d4ae981fe")
 		(property "Reference" "J2"
 			(at 21.336 48.26 0)
@@ -4660,6 +4750,33 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 21.59 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 21.59 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 21.59 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "0699c87e-9362-4a2a-a8b2-9e03c0706aa5")
 		)
@@ -4689,7 +4806,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "114fb370-aa76-4c7e-8222-506ec52f46f7")
 		(property "Reference" "J1"
 			(at 21.844 21.336 0)
@@ -4726,6 +4843,33 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 21.59 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 21.59 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 21.59 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
 			(at 21.59 24.13 0)
 			(effects
 				(font
@@ -4862,6 +5006,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 207.01 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL21B106KPQNNNE"
+			(at 207.01 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 207.01 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
 			(at 207.01 115.57 0)
 			(effects
 				(font
@@ -5268,6 +5439,33 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "PTVS10VZ1USK"
+			(at 177.8 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Nexperia"
+			(at 177.8 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "DSN1608-2"
+			(at 177.8 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "094abd8a-c977-4a82-a630-69791ccd1170")
 		)
@@ -5356,7 +5554,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "450890d1-6784-4731-9986-e6645178f07a")
 		(property "Reference" "J5"
 			(at 273.05 58.42 0)
@@ -5393,6 +5591,33 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 273.05 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 273.05 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 273.05 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
 			(at 273.05 49.53 0)
 			(effects
 				(font
@@ -5463,6 +5688,33 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 185.42 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AC0805FR-7W100RL"
+			(at 185.42 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 185.42 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
 			(at 185.42 57.15 0)
 			(effects
 				(font
@@ -5607,6 +5859,33 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "CL21B105KOFNNNG"
+			(at 171.45 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 171.45 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 171.45 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "04012a8a-bda9-4c38-ac4d-37ac02fbd642")
 		)
@@ -5742,6 +6021,33 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "PTVS10VZ1USK"
+			(at 185.42 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Nexperia"
+			(at 185.42 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "DSN1608-2"
+			(at 185.42 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b290bba3-0cba-4e7f-8002-c50d00bf2b94")
 		)
@@ -5752,6 +6058,110 @@
 			(project ""
 				(path "/37fdfe07-1a70-41c8-8af2-e03e19737580"
 					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 254 157.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "959ad9b3-7d23-40b0-8f0b-c426c13a7d28")
+		(property "Reference" "R4"
+			(at 254 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0 Ohm"
+			(at 254 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 254 159.258 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 254 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 254 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" ""
+			(at 254 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 254 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 254 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1206"
+			(at 254 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ccadf981-3439-4d2e-8cb7-ea87273308b0")
+		)
+		(pin "1"
+			(uuid "bd42de64-c8d3-4351-9181-b23c80b000c1")
+		)
+		(instances
+			(project "digital_waters"
+				(path "/37fdfe07-1a70-41c8-8af2-e03e19737580"
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -5884,6 +6294,33 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "MCP3208-CI/SL"
+			(at 182.88 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Microchip"
+			(at 182.88 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOIC-16"
+			(at 182.88 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "7"
 			(uuid "bf0dcf0c-c275-4faa-b797-d5503086e87a")
 		)
@@ -5996,6 +6433,33 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "ST485EBDR"
+			(at 199.39 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ST"
+			(at 199.39 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOIC-8"
+			(at 199.39 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "f0594835-f47c-4070-94f9-ae43500888f4")
 		)
@@ -6076,6 +6540,33 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 199.39 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL21B105KOFNNNG"
+			(at 199.39 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 199.39 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
 			(at 199.39 115.57 0)
 			(effects
 				(font
@@ -6173,7 +6664,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "d074d396-1b9e-417c-90a3-2179fd1eb382")
 		(property "Reference" "J3"
 			(at 31.75 115.57 0)
@@ -6210,6 +6701,33 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 31.75 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 31.75 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 31.75 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
 			(at 31.75 101.6 0)
 			(effects
 				(font
@@ -6452,7 +6970,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "ee3c1ccf-d76e-45e5-a360-397ce9d403f8")
 		(property "Reference" "J4"
 			(at 31.75 153.67 0)
@@ -6489,6 +7007,33 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 31.75 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 31.75 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 31.75 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
 			(at 31.75 139.7 0)
 			(effects
 				(font
@@ -7405,6 +7950,44 @@
 			(project "digital_waters"
 				(path "/37fdfe07-1a70-41c8-8af2-e03e19737580"
 					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 55.88 163.83)
+		(size 52.07 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fee907f6-f5ba-499c-bd8a-b20fbf7360db")
+		(property "Sheetname" "Harness"
+			(at 55.88 163.1184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Harness.kicad_sch"
+			(at 55.88 189.8146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "digital_waters"
+				(path "/37fdfe07-1a70-41c8-8af2-e03e19737580"
+					(page "5")
 				)
 			)
 		)
