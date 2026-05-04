@@ -563,6 +563,24 @@
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Package",
+          "name": "Package",
+          "show": true
         }
       ],
       "filter_string": "",
@@ -622,6 +640,14 @@
     [
       "569ba513-db4e-4a75-8161-f5cfa6b9cf84",
       "Sensor Module Prototype"
+    ],
+    [
+      "fee907f6-f5ba-499c-bd8a-b20fbf7360db",
+      "Harness"
+    ],
+    [
+      "f4663fdc-2924-4fb2-8126-80fa572143da",
+      "RTC"
     ],
     [
       "4e096a74-ff29-463d-8e2a-2f4b65c4f0fe",
